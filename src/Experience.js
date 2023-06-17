@@ -55,16 +55,16 @@ const Experience = () => {
                         <li>
                             Conducted risk and return analysis using Comfar III.
                         </li>
-                        
                     </ul>
                     <li className='font-semibold'>
-                    Sales Associate – Rexroth Ag
+                        Sales Associate – Rexroth Ag
                     </li>
                     <p>May 2018 – September 2018</p>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>
-                          Prepare pricing proposals based on customer requirements and vendors’ pricelists.
-                        </li>                        
+                            Prepare pricing proposals based on customer
+                            requirements and vendors’ pricelists.
+                        </li>
                     </ul>
                 </ul>
             </div>
