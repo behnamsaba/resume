@@ -12,6 +12,7 @@ const General = () => {
                     <li>Los Angeles, CA</li>
                     <li>949-993-6727</li>
                     <li>Behnams71@gmail.com</li>
+                    <li>US Permanent Resident</li>
                     <li className='flex items-center space-x-2'>
                         <AiFillLinkedin
                             size={25}
