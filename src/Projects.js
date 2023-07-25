@@ -52,6 +52,41 @@ const Projects = () => {
                     </ul>
 
                     <li className='font-semibold mt-4'>
+                    R2D2 – CRM Prototype web application for an AI company with OpenAI API
+                    </li>
+                    <ul className='list-disc list-inside space-y-2 pl-5'>
+                        <li>
+                        Multifeature prototype of R2D2 focusing on AI-driven market research, deal/customer suggestions, personalized email outreach and CRM autofill.
+                        </li>
+                        <li>
+                        Developed Flask backend leveraged LangChain framework to communicate with OpenAI's API, React for front-end, redux toolkit for state management, and Tailwind CSS for UI.
+                        </li>
+                        <li className='flex items-center space-x-2'>
+                            <AiOutlineGithub
+                                size={25}
+                                className='text-blue-500'
+                            />
+                            <Link
+                                to='https://github.com/behnamsaba/R2D2-Client-side'
+                                className='text-blue-500 underline hover:text-blue-700'>
+                                Client-side |
+                                https://github.com/behnamsaba/R2D2-Client-side
+                            </Link>
+                        </li>
+                        <li className='flex items-center space-x-2'>
+                            <AiOutlineGithub
+                                size={25}
+                                className='text-blue-500'
+                            />
+                            <Link
+                                to='https://github.com/behnamsaba/R2D2-backend'
+                                className='text-blue-500 underline hover:text-blue-700'>
+                                Server-side |
+                                https://github.com/behnamsaba/R2D2-backend
+                            </Link>
+                        </li>
+                    </ul>
+                    <li className='font-semibold mt-4'>
                         Jobly – Indeed style clone web application
                     </li>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
@@ -78,10 +113,10 @@ const Projects = () => {
                                 className='text-blue-500'
                             />
                             <Link
-                                to='https://github.com/behnamsaba/jobly-backend'
+                                to='https://github.com/behnamsaba/jobly-frontend'
                                 className='text-blue-500 underline hover:text-blue-700'>
                                 Client-side |
-                                https://github.com/behnamsaba/jobly-backend
+                                https://github.com/behnamsaba/jobly-frontend
                             </Link>
                         </li>
                         <li className='flex items-center space-x-2'>
