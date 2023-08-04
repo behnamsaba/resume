@@ -10,25 +10,19 @@ const Experience = () => {
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed'>
                     <li className='font-semibold'>
-                        Full Stack Developer Student – Springboard, San
+                        Full Stack Developer (Contract) – Galliot, San
                         Francisco, CA
                     </li>
-                    <p>September 2022 – June 2023</p>
+                    <p>Jan 2022 – Present</p>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>
-                            Intensive program with comprehensive hands-on
-                            coursework covering front-end, and back-end web
-                            development, and coding.
+                            Developed responsive and user-friendly interfaces using React ensuring optimal user experience.
                         </li>
                         <li>
-                            Developed and tested web applications under the
-                            guidance of industry experts, enhancing proficiency
-                            in programming languages and frameworks like
-                            JavaScript, Python, React, and more.
+                        Architected and engineered robust backend solutions using Node, Flask, and Next.js, specializing in data management with PostgreSQL and MongoDB databases.
                         </li>
                         <li>
-                            Executed freelance projects to apply acquired skills
-                            and knowledge effectively.
+                        Developed RESTful APIs for seamless data interchange between the front-end and back-end. Integrated third-party APIs to enhance application features and functionality.
                         </li>
                     </ul>
                     <li className='font-semibold'>
@@ -51,9 +45,6 @@ const Experience = () => {
                             Led a team of six analysts in producing influential
                             monthly and quarterly reports on commodities
                             outlook, providing valuable market Insights.
-                        </li>
-                        <li>
-                            Conducted risk and return analysis using Comfar III.
                         </li>
                     </ul>
                     <li className='font-semibold'>

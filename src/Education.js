@@ -12,35 +12,37 @@ const Education = () => {
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed'>
                     <li className='font-semibold'>
+                        Microsoft Azure Fundamentals– Microsoft
+                    </li>
+                    <p>July 2023 – Present</p>
+                    <li className='font-semibold'>
                         Full-Stack Software Engineering Program Certificate–
                         Springboard, San Francisco
                     </li>
                     <p>September 2022 – June 2023</p>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>
-                            Completed a 700+ hour full stack course covering the
-                            fundamental aspects of front-end and back-end web
-                            development.
+                            Intensive program with comprehensive hands-on
+                            coursework covering front-end, and back-end web
+                            development, and coding.
                         </li>
                         <li>
-                            Produced, completed, and refactored code for 114+
-                            [sprint] projects/ web applications/ assignments.
+                            Developed and tested real-world web applications
+                            under the guidance of industry experts.
                         </li>
                         <li>
-                            Developed databases that supported project web
-                            applications and implemented performance
-                            improvements.
+                            Completed a 700+ hour full-stack course,
+                            encompassing all facets of web development, and
+                            produced, refactor, and implemented code for 114+
+                            projects and web applications.
                         </li>
                         <li>
-                            Maintained understanding of current web
-                            technologies, frameworks, and programming practices
-                            through continuing education and participating in
-                            workshops.
+                            Stayed updated on current web technologies and
+                            practices through ongoing education and workshops.
                         </li>
                         <li>
-                            Researched, documented, and selected alternative web
-                            architectures and technologies for personal
-                            projects.
+                            Researched and selected alternative web technologies
+                            for personal projects.
                         </li>
                     </ul>
                     <li className='font-semibold'>
