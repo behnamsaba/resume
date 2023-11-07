@@ -12,11 +12,12 @@ const Education = () => {
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed'>
                     <li className='font-semibold'>
-                        Microsoft Azure Fundamentals– Microsoft
+                        Microsoft Azure Fundamentals AZ-900 Certificate –
+                        Microsoft
                     </li>
-                    <p>July 2023 – Present</p>
+                    <p>November 2023</p>
                     <li className='font-semibold'>
-                        Full-Stack Software Engineering Program Certificate–
+                        Full-Stack Software Engineering Program Certificate –
                         Springboard, San Francisco
                     </li>
                     <p>September 2022 – June 2023</p>
@@ -49,7 +50,7 @@ const Education = () => {
                         Bachelor of Science – Industrial Engineering, Azad
                         University
                     </li>
-                    <p>October 2011– February 2016</p>
+                    <p>October 2011 – February 2016</p>
                     <li className='font-semibold'>
                         Certificate: Word, Excel, PowerPoint, Access, Java,
                         Python – Tehran Institute of Technology

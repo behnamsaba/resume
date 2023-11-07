@@ -29,15 +29,15 @@ const General = () => {
             <div className='bg-gray-50 p-6'>
                 <h2 className='text-2xl font-bold mb-4'>Summary</h2>
                 <p className='text-gray-700 leading-relaxed'>
-                    Proactive Full Stack developer. Seeking a collaborative
-                    environment to learn from industry experts and contribute to
-                    the team's success. Detail-oriented team player with strong
-                    organizational skills. Ability to handle multiple projects
-                    simultaneously with a high degree of accuracy. Self-taught
-                    with formal training from Springboard Software Engineer
-                    Bootcamp. Committed to staying updated on industry trends.
-                    Strong background in cross-functional teamwork. Known for
-                    consistent performance and delivering impactful results.
+                    4 years of engineering experience in cross-functional teams,
+                    including 1 year as a full-stack developer within a startup
+                    environment. Well-versed in both front-end and back-end
+                    technologies, including SQL, JavaScript, Python, and React.
+                    Committed to staying up to date with the latest technology
+                    trends and passionate about building projects, creating rich
+                    user experiences, Cloud Services, and AI. Driven by
+                    impactful missions and keen to join and contribute to a
+                    dynamic, forward-thinking team.
                 </p>
             </div>
         </div>

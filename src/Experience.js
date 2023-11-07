@@ -13,16 +13,29 @@ const Experience = () => {
                         Full Stack Developer (Contract) – Galliot, San
                         Francisco, CA
                     </li>
-                    <p>Jan 2022 – Present</p>
+                    <p>Jan 2023 – Present</p>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>
-                            Developed responsive and user-friendly interfaces using React ensuring optimal user experience.
+                            Developed responsive and user-friendly interfaces
+                            using React ensuring optimal user experience.
                         </li>
                         <li>
-                        Architected and engineered robust backend solutions using Node, Flask, and Next.js, specializing in data management with PostgreSQL and MongoDB databases.
+                            Developed backend with Node, Flask, and Next.js,
+                            utilized PostgreSQL and MongoDB, created RESTful
+                            APIs, and integrated third-party APIs for front-end
+                            enhancement.
                         </li>
                         <li>
-                        Developed RESTful APIs for seamless data interchange between the front-end and back-end. Integrated third-party APIs to enhance application features and functionality.
+                            Developed and updated Chrome extension Manifest V3
+                            with React and Webpack.
+                        </li>
+                        <li>
+                            Contributed to different phases of the Software
+                            Development Life Cycle (SDLC).
+                        </li>
+                        <li>
+                            Effectively collaborated to analyze and meet client
+                            needs, delivering tailored software solutions.
                         </li>
                     </ul>
                     <li className='font-semibold'>

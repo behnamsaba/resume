@@ -35,13 +35,14 @@ const Skills = () => {
                         <li>Node.js</li>
                         <li>Redis</li>
                     </ul>
-                    <li className='font-semibold'>Database:</li>
+                    <li className='font-semibold'>Database Knowledge</li>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>SQL</li>
                         <li>PostgreSQL</li>
                         <li>SQLALchemy</li>
-                        <li>MongoDb</li>
                         <li>Schema Design</li>
+                        <li>MongoDb</li>
+                        <li>Microsoft Azure Cosmos DB</li>
                     </ul>
                     <li className='font-semibold'>Testing</li>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
@@ -52,17 +53,22 @@ const Skills = () => {
                     </ul>
                     <li className='font-semibold'>Additional Technologies</li>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
-                        <li>REST APIs</li>
-                        <li>Data Structures</li>
-                        <li>Jest</li>
-                        <li>Algorithms</li>
+                        <li>Docker</li>
                         <li>LangChain</li>
                         <li>OpenAI API</li>
-                        <li>Large Language Model</li>
-                        <li>Heroku (PaaS built on top of AWS)</li>
                         <li>GitHub/Git</li>
                         <li>Linux</li>
+                        <li>Microsoft Azure Cloud Services</li>
                         <li>Microsoft365</li>
+                        <li>Algorithms</li>
+                        <li>REST APIs</li>
+                        <li>Software Development Life Cycle (SDLC)</li>
+                    </ul>
+                    <li className='font-semibold'>Soft Skills</li>
+                    <ul className='list-disc list-inside space-y-2 pl-5'>
+                        <li>Collabration</li>
+                        <li>Problem-Solving</li>
+                        <li>Team-work</li>
                     </ul>
                 </ul>
             </div>
