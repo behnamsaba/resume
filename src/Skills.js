@@ -64,6 +64,16 @@ const Skills = () => {
                         <li>REST APIs</li>
                         <li>Software Development Life Cycle (SDLC)</li>
                     </ul>
+                    <li className='font-semibold'>Cloud Skills</li>
+                    <ul className='list-disc list-inside space-y-2 pl-5'>
+                        <li>Serverless Computing</li>
+                        <li>Azure Functions</li>
+                        <li>Azure App Service</li>
+                        <li>Azure Storage</li>
+                        <li>Cosmos DB</li>
+                        <li>Virtual Machines</li>
+                        <li>Distributed Architecture</li>
+                    </ul>
                     <li className='font-semibold'>Soft Skills</li>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>Collabration</li>

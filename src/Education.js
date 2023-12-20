@@ -12,7 +12,12 @@ const Education = () => {
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed'>
                     <li className='font-semibold'>
-                        Microsoft Azure Fundamentals AZ-900 Certificate –
+                        Microsoft Azure - Developer Associate AZ-204 Certificate –
+                        Microsoft
+                    </li>
+                    <p>December 2024</p>
+                    <li className='font-semibold'>
+                        Microsoft Azure - Fundamentals AZ-900 Certificate –
                         Microsoft
                     </li>
                     <p>November 2023</p>
