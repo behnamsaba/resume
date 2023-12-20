@@ -42,7 +42,6 @@ const Skills = () => {
                         <li>SQLALchemy</li>
                         <li>Schema Design</li>
                         <li>MongoDb</li>
-                        <li>Microsoft Azure Cosmos DB</li>
                     </ul>
                     <li className='font-semibold'>Testing</li>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
@@ -63,6 +62,8 @@ const Skills = () => {
                         <li>Algorithms</li>
                         <li>REST APIs</li>
                         <li>Software Development Life Cycle (SDLC)</li>
+                        <li>Distributed Architecture</li>
+                        <li>Event-Driven</li>
                     </ul>
                     <li className='font-semibold'>Cloud Skills</li>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
@@ -72,7 +73,6 @@ const Skills = () => {
                         <li>Azure Storage</li>
                         <li>Cosmos DB</li>
                         <li>Virtual Machines</li>
-                        <li>Distributed Architecture</li>
                     </ul>
                     <li className='font-semibold'>Soft Skills</li>
                     <ul className='list-disc list-inside space-y-2 pl-5'>

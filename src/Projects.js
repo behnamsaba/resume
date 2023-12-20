@@ -8,9 +8,6 @@ const Projects = () => {
                 <Link to='/projects'>
                     <h2 className='text-2xl font-bold mb-4'>Projects</h2>
                 </Link>
-                <p className='text-black text-lg mb-4'>
-                    All these projects were created completely from scratch
-                </p>
             </div>
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed'>

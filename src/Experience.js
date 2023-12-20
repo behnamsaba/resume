@@ -10,10 +10,9 @@ const Experience = () => {
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed'>
                     <li className='font-semibold'>
-                        Full Stack Developer (Contract) – Galliot, San
-                        Francisco, CA
+                        Full Stack Developer – Galliot, San Francisco, CA {' '}
+                        <b>(Jan 2023 - Present)</b>
                     </li>
-                    <p>Jan 2023 – Present</p>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>
                             Developed responsive and user-friendly interfaces
@@ -39,21 +38,15 @@ const Experience = () => {
                         </li>
                     </ul>
                     <li className='font-semibold'>
-                        Project Management Associate – KCE
+                        Project Management Associate, Market Researcher –
+                        KCE <b>(October 2018 - February 2021)</b>
                     </li>
-                    <p>October 2018 – February 2021</p>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>
                             Efficiently completed the Sangan Iron Ore project by
                             effectively coordinating with multiple contractors
                             to track documents, requisitions, meetings.
                         </li>
-                    </ul>
-                    <li className='font-semibold'>
-                        Market Research Analyst – KCE
-                    </li>
-                    <p>October 2018 – February 2021</p>
-                    <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>
                             Led a team of six analysts in producing influential
                             monthly and quarterly reports on commodities
@@ -61,9 +54,9 @@ const Experience = () => {
                         </li>
                     </ul>
                     <li className='font-semibold'>
-                        Sales Associate – Rexroth Ag
+                        Sales Associate – Rexroth Ag{' '}
+                        <b>(May 2018 – September 2018)</b>
                     </li>
-                    <p>May 2018 – September 2018</p>
                     <ul className='list-disc list-inside space-y-2 pl-5'>
                         <li>
                             Prepare pricing proposals based on customer
