@@ -90,7 +90,7 @@ const General = () => {
                 <h2 className='font-bold hover:font-bold w-full border-b-2 border-neutral-200 border-opacity-100 dark:border-opacity-50 text-center py-2'>
                     Summary
                 </h2>
-                <p className=' hover:bg-blue-100 rounded-lg py-2 px-2'>
+                <p className=' hover:bg-blue-100 rounded-lg py-2 px-2 text-justify'>
                     4 years of engineering experience in cross-functional teams,
                     including 1 year as a full-stack developer within a startup
                     environment. Well-versed in both front-end and back-end
