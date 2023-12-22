@@ -4,17 +4,24 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     const listItem =
         'font-semibold hover:font-bold w-full border-b-2 border-neutral-200 border-opacity-100 dark:border-opacity-50';
-    const secondItem = ' hover:bg-blue-100 rounded-lg py-2 px-2';
-    const thirdItem = ' text-gray-700 list-disc list-inside dark:text-gray-400 text-justify'
+    const secondItem = 'hover:bg-blue-100 rounded-lg py-2 px-2';
+    const thirdItem =
+        'text-gray-700 list-disc list-inside dark:text-gray-400 text-justify';
+    const githubItem = 'flex items-center space-x-2 px-2 py-2';
+
     return (
         <div className='max-w-2xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border-2 border-gray-300 p-3 m-4'>
-          <h2 className=' bg-gray-50 text-center text-2xl font-bold mb-4'>PROJECTS</h2>
+            <h2 className='bg-gray-50 text-center text-2xl font-bold mb-4'>
+                PROJECTS
+            </h2>
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed text-center'>
+                    {/* Project 1 */}
                     <li className={listItem}>
                         One movie – movie/TV show web application with TMDB API
                     </li>
                     <ul className={thirdItem}>
+                        {/* Project 1 Details */}
                         <li className={secondItem}>
                             Empower users to browse a selection of movies and
                             manage personalized watch lists. This sophisticated
@@ -33,7 +40,8 @@ const Projects = () => {
                             Implemented Model View Controller (MVC) pattern
                             structure.
                         </li>
-                        <li className='flex items-center space-x-2 px-2 py-2'>
+                        {/* GitHub Link */}
+                        <li className={githubItem}>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
@@ -46,11 +54,13 @@ const Projects = () => {
                         </li>
                     </ul>
 
+                    {/* Project 2 */}
                     <li className={listItem}>
                         R2D2 – CRM Prototype web application for an AI company
                         with OpenAI API
                     </li>
                     <ul className={thirdItem}>
+                        {/* Project 2 Details */}
                         <li className={secondItem}>
                             Multifeature prototype of R2D2 focusing on AI-driven
                             market research, deal/customer suggestions,
@@ -62,14 +72,15 @@ const Projects = () => {
                             for front-end, redux toolkit for state management,
                             and Tailwind CSS for UI.
                         </li>
-                        <li className='flex items-center space-x-2 px-2 py-2'>
+                        {/* GitHub Link */}
+                        <li className={githubItem}>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
                             />
                             <Link
                                 to='https://github.com/behnamsaba/R2D2-Client-side'
-                                className='text-blue-500 no-underline hover:text-blue-700'>
+                                className='text-blue-500 underline hover:text-blue-700'>
                                 Client-side |
                             </Link>
                             <Link
@@ -78,14 +89,14 @@ const Projects = () => {
                                 https://github.com/behnamsaba/R2D2-Client-side
                             </Link>
                         </li>
-                        <li className='flex items-center space-x-2 px-2 py-2'>
+                        <li className={githubItem}>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
                             />
                             <Link
-                                to='https://github.com/behnamsaba/R2D2-backend'
-                                className='text-blue-500 no-underline hover:text-blue-700'>
+                                to='https://github.com/behnamsaba/R2D2-Client-side'
+                                className='text-blue-500 underline hover:text-blue-700'>
                                 Server-side |
                             </Link>
                             <Link
@@ -94,11 +105,14 @@ const Projects = () => {
                                 https://github.com/behnamsaba/R2D2-backend
                             </Link>
                         </li>
+                        {/* Other GitHub Links */}
                     </ul>
+                    {/* Project 3 */}
                     <li className={listItem}>
                         Jobly – Indeed style clone web application
                     </li>
                     <ul className={thirdItem}>
+                        {/* Project 3 Details */}
                         <li className={secondItem}>
                             Full stack app built using React, Express, and
                             PostgreSQL with database querying capabilities.
@@ -116,14 +130,15 @@ const Projects = () => {
                             Incorporated unit and integration tests using the
                             Super test library and Jest framework.
                         </li>
-                        <li className='flex items-center space-x-2 px-2 py-2'>
+                        {/* GitHub Link */}
+                        <li className={githubItem}>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
                             />
                             <Link
                                 to='https://github.com/behnamsaba/jobly-frontend'
-                                className='text-blue-500 no-underline hover:text-blue-700'>
+                                className='text-blue-500 underline hover:text-blue-700'>
                                 Client-side |
                             </Link>
                             <Link
@@ -132,14 +147,14 @@ const Projects = () => {
                                 https://github.com/behnamsaba/jobly-frontend
                             </Link>
                         </li>
-                        <li className='flex items-center space-x-2 px-2 py-2'>
+                        <li className={githubItem}>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
                             />
                             <Link
                                 to='https://github.com/behnamsaba/jobly-backend'
-                                className='text-blue-500 no-underline hover:text-blue-700'>
+                                className='text-blue-500 underline hover:text-blue-700'>
                                 Server-side |
                             </Link>
                             <Link
@@ -149,12 +164,12 @@ const Projects = () => {
                             </Link>
                         </li>
                     </ul>
-
                     <li className={listItem}>
                         Flashcard – application for learning vocabulary with
                         external API
                     </li>
-                    <ul className='list-disc list-inside space-y-1 pl-1'>
+                    <ul className={thirdItem}>
+                        {/* Project 4 Details */}
                         <li className={secondItem}>
                             Designed and implemented a RESTful API using Flask
                             and PostgreSQL, with SQLAlchemy for database
@@ -171,7 +186,8 @@ const Projects = () => {
                             Implemented Jinja2 for frontend development,
                             enhanced by HTML and Bootstrap.
                         </li>
-                        <li className='flex items-center space-x-2 px-2 py-2'>
+                        {/* GitHub Link */}
+                        <li className={githubItem}>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
