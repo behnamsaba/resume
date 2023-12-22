@@ -5,14 +5,10 @@ const Projects = () => {
     const listItem =
         'font-semibold hover:font-bold w-full border-b-2 border-neutral-200 border-opacity-100 dark:border-opacity-50';
     const secondItem = ' hover:bg-blue-100 rounded-lg py-2 px-2';
-    const thirdItem = "list-disc list-inside space-y-1 pl-1 text-justify"
+    const thirdItem = 'list-disc list-inside space-y-1 pl-1 text-justify';
     return (
         <div className='max-w-2xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border-2 border-gray-300 p-3 m-4'>
-            <div className='bg-gray-50 text-center'>
-                <Link to='/projects'>
-                    <h2 className='text-2xl font-bold mb-4'>Projects</h2>
-                </Link>
-            </div>
+          <h2 className=' bg-gray-50 text-center text-2xl font-bold mb-4'>PROJECTS</h2>
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed text-center'>
                     <li className={listItem}>
@@ -73,8 +69,12 @@ const Projects = () => {
                             />
                             <Link
                                 to='https://github.com/behnamsaba/R2D2-Client-side'
-                                className='text-blue-500 underline hover:text-blue-700'>
+                                className='text-blue-500 no-underline hover:text-blue-700'>
                                 Client-side |
+                            </Link>
+                            <Link
+                                to='https://github.com/behnamsaba/R2D2-Client-side'
+                                className='text-blue-500 underline hover:text-blue-700'>
                                 https://github.com/behnamsaba/R2D2-Client-side
                             </Link>
                         </li>
@@ -85,8 +85,12 @@ const Projects = () => {
                             />
                             <Link
                                 to='https://github.com/behnamsaba/R2D2-backend'
-                                className='text-blue-500 underline hover:text-blue-700'>
+                                className='text-blue-500 no-underline hover:text-blue-700'>
                                 Server-side |
+                            </Link>
+                            <Link
+                                to='https://github.com/behnamsaba/R2D2-backend'
+                                className='text-blue-500 underline hover:text-blue-700'>
                                 https://github.com/behnamsaba/R2D2-backend
                             </Link>
                         </li>
@@ -119,8 +123,12 @@ const Projects = () => {
                             />
                             <Link
                                 to='https://github.com/behnamsaba/jobly-frontend'
-                                className='text-blue-500 underline hover:text-blue-700'>
+                                className='text-blue-500 no-underline hover:text-blue-700'>
                                 Client-side |
+                            </Link>
+                            <Link
+                                to='https://github.com/behnamsaba/jobly-frontend'
+                                className='text-blue-500 underline hover:text-blue-700'>
                                 https://github.com/behnamsaba/jobly-frontend
                             </Link>
                         </li>
@@ -131,8 +139,12 @@ const Projects = () => {
                             />
                             <Link
                                 to='https://github.com/behnamsaba/jobly-backend'
-                                className='text-blue-500 underline hover:text-blue-700'>
+                                className='text-blue-500 no-underline hover:text-blue-700'>
                                 Server-side |
+                            </Link>
+                            <Link
+                                to='https://github.com/behnamsaba/jobly-backend'
+                                className='text-blue-500 underline hover:text-blue-700'>
                                 https://github.com/behnamsaba/jobly-backend
                             </Link>
                         </li>
@@ -155,7 +167,7 @@ const Projects = () => {
                             Serving as a powerful tool for users to enrich their
                             English vocabulary.
                         </li>
-                        <li>
+                        <li className={secondItem}>
                             Implemented Jinja2 for frontend development,
                             enhanced by HTML and Bootstrap.
                         </li>

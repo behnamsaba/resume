@@ -1,12 +1,7 @@
-import { Link } from 'react-router-dom';
 const Experience = () => {
     return (
         <div className='max-w-2xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border-2 border-gray-300 p-3 m-4'>
-            <div className='bg-gray-50 text-center'>
-                <Link to='/experience'>
-                    <h2 className='text-2xl font-bold mb-4'>EXPERIENCE</h2>
-                </Link>
-            </div>
+            <h2 className=' bg-gray-50 text-center text-2xl font-bold mb-4'>EXPERIENCE</h2>
             <div className='bg-gray-50 p-6'>
                 <ul className='list-none space-y-4 text-gray-700 leading-relaxed text-center'>
                     <li className='font-semibold hover:font-bold w-full border-b-2 border-neutral-200 border-opacity-100 dark:border-opacity-50'>
