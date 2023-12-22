@@ -5,7 +5,7 @@ const Projects = () => {
     const listItem =
         'font-semibold hover:font-bold w-full border-b-2 border-neutral-200 border-opacity-100 dark:border-opacity-50';
     const secondItem = ' hover:bg-blue-100 rounded-lg py-2 px-2';
-    const thirdItem = 'list-disc list-inside space-y-1 pl-1 text-justify';
+    const thirdItem = ' text-gray-700 list-disc list-inside dark:text-gray-400 text-justify'
     return (
         <div className='max-w-2xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border-2 border-gray-300 p-3 m-4'>
           <h2 className=' bg-gray-50 text-center text-2xl font-bold mb-4'>PROJECTS</h2>

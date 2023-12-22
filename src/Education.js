@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 const Education = () => {
     const itemList = 'font-semibold hover:font-bold px-1 py-1';
     return (
