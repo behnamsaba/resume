@@ -33,7 +33,7 @@ const Projects = () => {
                             Implemented Model View Controller (MVC) pattern
                             structure.
                         </li>
-                        <li className='flex items-center space-x-2'>
+                        <li className='flex items-center space-x-2 px-2 py-2'>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
@@ -62,7 +62,7 @@ const Projects = () => {
                             for front-end, redux toolkit for state management,
                             and Tailwind CSS for UI.
                         </li>
-                        <li className='flex items-center space-x-2'>
+                        <li className='flex items-center space-x-2 px-2 py-2'>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
@@ -78,7 +78,7 @@ const Projects = () => {
                                 https://github.com/behnamsaba/R2D2-Client-side
                             </Link>
                         </li>
-                        <li className='flex items-center space-x-2'>
+                        <li className='flex items-center space-x-2 px-2 py-2'>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
@@ -116,7 +116,7 @@ const Projects = () => {
                             Incorporated unit and integration tests using the
                             Super test library and Jest framework.
                         </li>
-                        <li className='flex items-center space-x-2'>
+                        <li className='flex items-center space-x-2 px-2 py-2'>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
@@ -132,7 +132,7 @@ const Projects = () => {
                                 https://github.com/behnamsaba/jobly-frontend
                             </Link>
                         </li>
-                        <li className='flex items-center space-x-2'>
+                        <li className='flex items-center space-x-2 px-2 py-2'>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
@@ -171,7 +171,7 @@ const Projects = () => {
                             Implemented Jinja2 for frontend development,
                             enhanced by HTML and Bootstrap.
                         </li>
-                        <li className='flex items-center space-x-2'>
+                        <li className='flex items-center space-x-2 px-2 py-2'>
                             <AiOutlineGithub
                                 size={25}
                                 className='text-blue-500'
