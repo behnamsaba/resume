@@ -1,66 +1,65 @@
 import { Link } from 'react-router-dom';
 const Education = () => {
+    const itemList = 'font-semibold hover:font-bold px-1 py-1';
     return (
-        <div className='max-w-2xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border-2 border-gray-300 p-4 m-4'>
-            <div className='bg-gray-50 p-6'>
+        <div className='max-w-2xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border-2 border-gray-300 p-3 m-4'>
+            <div className='bg-gray-50 text-center'>
                 <Link to='/experience'>
                     <h2 className='text-2xl font-bold mb-4'>
-                        Education and Experience
+                        EDUCATION AND CERTIFICATION
                     </h2>
                 </Link>
             </div>
             <div className='bg-gray-50 p-6'>
-                <ul className='list-none space-y-4 text-gray-700 leading-relaxed'>
-                    <li className='font-semibold'>
-                        Microsoft Azure - Developer Associate AZ-204 Certificate –
-                        Microsoft
+                <ul className='list-none space-y-4 text-gray-700 leading-relaxed text-center'>
+                    <li className={itemList}>
+                        Microsoft Azure - Developer Associate AZ-204 Certificate
+                        – Microsoft
+                        <p className='text-sm'>December 2023</p>
                     </li>
-                    <p>December 2024</p>
-                    <li className='font-semibold'>
+                    <li className={itemList}>
                         Microsoft Azure - Fundamentals AZ-900 Certificate –
                         Microsoft
+                        <p className='text-sm'>November 2023</p>
                     </li>
-                    <p>November 2023</p>
-                    <li className='font-semibold'>
-                        Full-Stack Software Engineering Program Certificate –
-                        Springboard, San Francisco
+                    <li className={itemList}>
+                        Full-Stack Software Engineering Program Certificate
+                        <p className='text-sm'>September 2022 – August 2023</p>
                     </li>
-                    <p>September 2022 – June 2023</p>
-                    <ul className='list-disc list-inside space-y-2 pl-5'>
-                        <li>
+                    {/* <ul className='list-none list-inside space-y-2 pl-5'>
+                        <li className={seconditemList}>
                             Intensive program with comprehensive hands-on
                             coursework covering front-end, and back-end web
                             development, and coding.
                         </li>
-                        <li>
+                        <li className={seconditemList}>
                             Developed and tested real-world web applications
                             under the guidance of industry experts.
                         </li>
-                        <li>
+                        <li className={seconditemList}>
                             Completed a 700+ hour full-stack course,
                             encompassing all facets of web development, and
                             produced, refactor, and implemented code for 114+
                             projects and web applications.
                         </li>
-                        <li>
+                        <li className={seconditemList}>
                             Stayed updated on current web technologies and
                             practices through ongoing education and workshops.
                         </li>
-                        <li>
+                        <li className={seconditemList}>
                             Researched and selected alternative web technologies
                             for personal projects.
                         </li>
                     </ul>
-                    <li className='font-semibold'>
+                    <li className={itemList}>
                         Bachelor of Science – Industrial Engineering, Azad
                         University
-                    </li>
-                    <p>October 2011 – February 2016</p>
-                    <li className='font-semibold'>
+                        <p className='text-sm'>October 2011 – February 2016</p>
+                    </li> */}
+                    <li className={itemList}>
                         Certificate: Word, Excel, PowerPoint, Access, Java,
-                        Python – Tehran Institute of Technology
+                        Python – MFT
                     </li>
-                    <p>October 2018 – February 2021</p>
                 </ul>
             </div>
         </div>

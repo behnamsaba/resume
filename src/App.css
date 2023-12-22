@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    @apply h-24 bg-gradient-to-r from-green-100 to-blue-500;
+    
+  }
