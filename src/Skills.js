@@ -64,7 +64,7 @@ const Skills = () => {
                     <li className='font-semibold hover:font-bold className="w-full border-b-2 border-neutral-200 border-opacity-100 dark:border-opacity-50"'>
                         Additional Technologies
                     </li>
-                    <ul className='grid grid-rows-4 grid-flow-col content-between'>
+                    <ul className='grid grid-rows-6 grid-flow-col content-between'>
                         <li className={listItemStyle}>Docker</li>
                         <li className={listItemStyle}>LangChain</li>
                         <li className={listItemStyle}>OpenAI API</li>
