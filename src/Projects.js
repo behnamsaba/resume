@@ -16,7 +16,7 @@ const Projects = () => {
                 PROJECTS
             </h2>
             <div className='bg-gray-50 p-6'>
-                <div class='flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-600 dark:border-gray-500 dark:shadow-slate-700/[.7]'>
+                <div class='flex flex-col bg-white border shadow-sm rounded-xl'>
                     <img
                         class='w-full h-auto rounded-t-xl'
                         src='/onemovie.png'
