@@ -9,6 +9,7 @@ const Projects = () => {
     const projectExplain =
         'mt-1 text-gray-500 dark:text-gray-400 hover:bg-blue-100 rounded-lg py-2 px-2';
     const githubItem = 'flex items-center space-x-2 px-2 py-2';
+    const card = 'flex flex-col bg-white border shadow-sm rounded-xl'
 
     return (
         <div className='max-w-2xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border-2 border-gray-300 p-3 m-4'>
@@ -16,7 +17,7 @@ const Projects = () => {
                 PROJECTS
             </h2>
             <div className='bg-gray-50 p-6'>
-                <div class='flex flex-col bg-white border shadow-sm rounded-xl'>
+                <div class={card}>
                     <img
                         class='w-full h-auto rounded-t-xl'
                         src='/onemovie.png'
@@ -69,7 +70,7 @@ const Projects = () => {
                         </p>
                     </div>
                 </div>
-                <div class='flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]'>
+                <div className={card}>
                     <img
                         class='w-full h-auto rounded-t-xl'
                         src='/r2d2.png'
@@ -126,7 +127,7 @@ const Projects = () => {
                         </p>
                     </div>
                 </div>
-                <div class='flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]'>
+                <div className={card}>
                     <img
                         class='w-full h-auto rounded-t-xl'
                         src='/job.png'
@@ -189,7 +190,7 @@ const Projects = () => {
                         </p>
                     </div>
                 </div>
-                <div class='flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]'>
+                <div className={card}>
                     <img
                         class='w-full h-auto rounded-t-xl'
                         src='/vocab.png'
