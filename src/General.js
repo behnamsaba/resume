@@ -1,14 +1,71 @@
-import { AiFillLinkedin } from 'react-icons/ai';
-import { AiOutlineGithub } from 'react-icons/ai';
+import React from 'react';
+import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { RiContactsFill } from 'react-icons/ri';
-import { FaPhoneVolume } from 'react-icons/fa';
-import { FaFilePdf } from 'react-icons/fa';
-
+import { FaPhoneVolume, FaFilePdf } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
+const contactInfo = [
+    { icon: RiContactsFill, size: 50, text: 'Contact', isHeader: true },
+    { text: 'Behnam Saba' },
+    { text: 'Full Stack Software Engineer' },
+    { text: 'Los Angeles, CA' },
+    { text: 'US Permanent Resident' },
+    { icon: FaPhoneVolume, size: 25, text: '949-993-6727', link: '' },
+    {
+        icon: FaFilePdf,
+        size: 25,
+        text: 'Get My Resume in PDF',
+        link: 'https://drive.google.com/file/d/12_hDSUh3-39OTcVfYxzd-3x4EaSWVJOP/view?usp=sharing',
+        iconColor: 'text-red-500',
+    },
+    {
+        icon: MdOutlineMailOutline,
+        size: 25,
+        text: 'Behnams71@gmail.com',
+        link: 'mailto:behnams71@gmail.com',
+        iconColor: 'text-green-600',
+    },
+    {
+        icon: AiFillLinkedin,
+        size: 25,
+        text: 'Linkedin',
+        link: 'https://www.linkedin.com/in/behnam-saba-979915134',
+        iconColor: 'text-blue-500',
+    },
+    {
+        icon: AiOutlineGithub,
+        size: 25,
+        text: 'GitHub',
+        link: 'https://github.com/behnamsaba',
+        iconColor: 'text-black',
+    },
+];
+
+const ContactItem = ({ icon: Icon, size, text, link, iconColor, isHeader }) => {
+    const className = isHeader ? 'text-2xl font-bold mb-1' : 'font-semibold';
+    return (
+        <li className='flex items-center space-x-2 px-2 py-2'>
+            {Icon && (
+                <Icon
+                    size={size}
+                    className={iconColor || 'text-gray-500'}
+                />
+            )}
+            {link ? (
+                <Link
+                    to={link}
+                    className='text-blue-500 underline'>
+                    {text}
+                </Link>
+            ) : (
+                <p className={className}>{text}</p>
+            )}
+        </li>
+    );
+};
+
 const General = () => {
-    const firstItem = 'flex items-center space-x-2 px-2 py-2';
     return (
         <div className='max-w-2xl mx-auto bg-black rounded-lg shadow-lg overflow-hidden border-2 border-gray-300 p-3 m-4'>
             <div className='bg-gray-50 p-6'>
@@ -21,76 +78,18 @@ const General = () => {
                     are conveniently listed below. Looking forward to connecting
                     with you!
                 </p>
-                <ul className=' text-gray-700 list-none dark:text-gray-400 text-justify'>
-                    <li className={firstItem}>
-                        <RiContactsFill
-                            size={50}
-                            className='text-gray-700'
+                <ul className='text-gray-700 list-none dark:text-gray-400 text-justify'>
+                    {contactInfo.map((item, index) => (
+                        <ContactItem
+                            key={index}
+                            {...item}
                         />
-                        <h2 className='text-2xl font-bold mb-1'>Contact</h2>
-                    </li>
-                    <li className='font-semibold'>Behnam Saba</li>
-                    <li className='font-semibold'>
-                        Full Stack Software Engineer
-                    </li>
-                    <li className='font-semibold'>Los Angeles, CA</li>
-                    <li className='font-semibold'>US Permanent Resident</li>
-                    <li className='flex items-center space-x-2 px-2 py-2'>
-                        <FaPhoneVolume
-                            size={25}
-                            className='text-gray-500'
-                        />
-                        <p className='text-black-500'>949-993-6727</p>
-                    </li>
-                    <li className='flex items-center space-x-2 px-2 py-2'>
-                        <FaFilePdf
-                            size={25}
-                            className='text-red-500'
-                        />
-                        <Link
-                            to='https://drive.google.com/file/d/12_hDSUh3-39OTcVfYxzd-3x4EaSWVJOP/view?usp=sharing'
-                            className='text-blue-500 underline'>
-                            Get My Resume in PDF
-                        </Link>
-                    </li>
-                    <li className='flex items-center space-x-2 px-2 py-2'>
-                        <MdOutlineMailOutline
-                            size={25}
-                            className='text-green-600'
-                        />
-                        <Link
-                            to='mailto:behnams71@gmail.com'
-                            className='text-blue-500 underline'>
-                            Behnams71@gmail.com
-                        </Link>
-                    </li>
-                    <li className='flex items-center space-x-2 px-2 py-2'>
-                        <AiFillLinkedin
-                            size={25}
-                            className='text-blue-500'
-                        />
-                        <Link
-                            to='https://www.linkedin.com/in/behnam-saba-979915134'
-                            className='text-blue-500 underline'>
-                            Linkedin
-                        </Link>
-                    </li>
-                    <li className='flex items-center space-x-2 px-2 py-2'>
-                        <AiOutlineGithub
-                            size={25}
-                            className='text-black-500'
-                        />
-                        <Link
-                            to='https://github.com/behnamsaba'
-                            className='text-blue-500 underline'>
-                            GitHub
-                        </Link>
-                    </li>
+                    ))}
                 </ul>
                 <h2 className='font-bold hover:font-bold w-full border-b-2 border-neutral-200 border-opacity-100 dark:border-opacity-50 text-center py-2'>
                     Summary
                 </h2>
-                <p className=' hover:bg-blue-100 rounded-lg py-2 px-2 text-justify'>
+                <p className='hover:bg-blue-100 rounded-lg py-2 px-2 text-justify'>
                     4 years of engineering experience in cross-functional teams,
                     including 1 year as a full-stack developer within a startup
                     environment. Well-versed in both front-end and back-end
