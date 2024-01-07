@@ -24,7 +24,7 @@ const experienceData = [
     },
     {
         role: 'Sales Associate – Rexroth Ag',
-        period: 'May 2018 - September 2018)',
+        period: 'May 2018 - September 2018',
         responsibilities: [
             "Generated accurate pricing proposals by analyzing customer requirements and aligning them with vendors' pricelists.",
         ],
