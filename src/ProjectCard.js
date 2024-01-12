@@ -1,7 +1,6 @@
 // Component for individual project card
 import { AiOutlineGithub } from 'react-icons/ai';
 import { CgMediaLive } from 'react-icons/cg';
-import { Link } from 'react-router-dom';
 
 const ProjectCard = ({
     title,
@@ -34,11 +33,12 @@ const ProjectCard = ({
                     size={25}
                     className='text-black-500'
                 />
-                <Link
-                    to={githubLink}
-                    className='text-blue-500 no-underline hover:text-blue-700'>
+                <a
+                    href={githubLink}
+                    target='_blank'
+                    className='text-blue-500 no-underline hover:text-blue-700' rel="noreferrer">
                     {serverGithubLink ? 'Client-side GitHub' : 'GitHub'}
-                </Link>
+                </a>
             </div>
             {serverGithubLink && (
                 <div className='flex items-center space-x-2 px-2 py-2'>
@@ -46,11 +46,12 @@ const ProjectCard = ({
                         size={25}
                         className='text-black-500'
                     />
-                    <Link
-                        to={serverGithubLink}
-                        className='text-blue-500 no-underline hover:text-blue-700'>
+                    <a
+                        href={serverGithubLink}
+                        target='_blank'
+                        className='text-blue-500 no-underline hover:text-blue-700' rel="noreferrer">
                         Server-side GitHub
-                    </Link>
+                    </a>
                 </div>
             )}
             <div className='flex items-center space-x-2 px-2 py-2'>
@@ -58,11 +59,12 @@ const ProjectCard = ({
                     size={25}
                     className='text-red-500'
                 />
-                <Link
-                    to={liveLink}
-                    className='text-blue-500 no-underline hover:text-blue-700'>
+                <a
+                    href={liveLink}
+                    target='_blank'
+                    className='text-blue-500 no-underline hover:text-blue-700' rel="noreferrer">
                     Live Version
-                </Link>
+                </a>
             </div>
         </div>
     </div>
