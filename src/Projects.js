@@ -16,6 +16,20 @@ const projectData = [
         imageAlt: 'one movie',
     },
     {
+        title: 'Jobly – Indeed style clone web application',
+        descriptions: [
+            'Full stack app built using React, Express, and PostgreSQL with database querying capabilities.',
+            'Implemented full user signup/login process with authorization/ authentication using JSON web tokens (JWT) and Bcrypt.',
+            'Features search functions. Allows users to search companies and jobs.',
+            'Incorporated unit and integration tests using the Super test library and Jest framework.',
+        ],
+        githubLink: 'https://github.com/behnamsaba/jobly-frontend',
+        serverGithubLink: 'https://github.com/behnamsaba/jobly-backend',
+        liveLink: 'https://jobly-frontend-ag2j.onrender.com/',
+        imageSrc: '/job.png',
+        imageAlt: 'job',
+    },
+    {
         title: 'R2D2 – CRM Prototype web application integrated with OpenAI API',
         descriptions: [
             'Multifeature prototype of R2D2 focusing on AI-driven market research, deal/customer suggestions, personalized email outreach, and CRM autofill.',
@@ -27,20 +41,6 @@ const projectData = [
         liveLink: 'https://r2d2-prototype.onrender.com/',
         imageSrc: '/r2d2.png',
         imageAlt: 'r2d2 prototype',
-    },
-    {
-        title: 'Jobly – Indeed style clone web application',
-        descriptions: [
-            'Full stack app built using React, Express, and PostgreSQL with database querying capabilities.',
-            'Implemented full user signup/login process with authorization/ authentication using JSON web tokens (JWT) and Bcrypt.',
-            'Features search functions. Allows users to search companies and jobs.',
-            'Incorporated unit and integration tests using the Super test library and Jest framework.',
-        ],
-        githubLink: 'https://github.com/behnamsaba/jobly-frontend',
-        serverGithubLink: 'https://github.com/behnamsaba/jobly-backend',
-        liveLink: 'https://equal-frog.surge.sh/',
-        imageSrc: '/job.png',
-        imageAlt: 'job',
     },
     {
         title: 'Flashcard – application for learning vocabulary with external API',

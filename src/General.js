@@ -23,7 +23,7 @@ const contactInfo = [
         icon: MdOutlineMailOutline,
         size: 25,
         text: 'Behnams71@gmail.com',
-        link: 'mailto:behnams71@gmail.com',
+        link: ' ',
         iconColor: 'text-green-600',
     },
     {
