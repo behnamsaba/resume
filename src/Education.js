@@ -14,13 +14,19 @@ const educationData = [
     },
     {
         title: 'Full-Stack Software Engineering Program Certificate',
+        institution: 'Springboard',
         date: 'September 2022 – August 2023',
+    },
+    {
+        title: 'Bachelor of Science – Industrial Engineering',
+        date: 'September 2011 - February 2016',
+        institution: 'Azad University'
+
     },
     {
         title: 'Certificate: Word, Excel, PowerPoint, Access, Java, Python',
         institution: 'MFT',
     },
-    // ... future certification here
 ];
 
 // Component for individual education/certification item
