@@ -4,6 +4,16 @@ import ProjectCard from './ProjectCard';
 // Data structure for project information
 const projectData = [
     {
+        title: 'Fashion e-Commerce website - (Comming Soon)',
+        descriptions: [
+            'E-commerce website utilizing TypeScript and enhanced its functionality by leveraging modern Microsoft Azure cloud services, ensuring robust and scalable solutions.',
+            'Implemented React for frontend development, integrated React-router for client-side rendering, utilized Redux Toolkit for efficient state management, and employed Tailwind CSS to ensure the responsive design of the website.',
+            'Leveraged Azure Functions, a serverless computing service, to efficiently manage backend logic. This approach significantly reduced costs (Azure pay-as-you-go subscription).',
+            'Hosting React front-end app on Azure Web Apps supports continuous deployment (CI/CD) from GitHub.',
+            'Used T-SQL (Transact-SQL) for schema design and queries and Azure SQL Database, based on the Microsoft SQL Server database engine for supproting transactional capabilities.'
+        ]
+    },
+    {
         title: 'One movie – movie/TV show web application with TMDB API',
         descriptions: [
             'Empower users to browse a selection of movies and manage personalized watch lists. This sophisticated platform enhances user experience through integration with an external API, successfully driving increased engagement and interaction.',
@@ -41,6 +51,16 @@ const projectData = [
         liveLink: 'https://r2d2-prototype.onrender.com/',
         imageSrc: '/r2d2.png',
         imageAlt: 'r2d2 prototype',
+    },
+    {
+        title: 'Time zone converter Chrome Extension',
+        descriptions: [
+            'As you browse the web, the Chrome extension plugin seamlessly detects times and converts them to your preferred time zone(s).',
+            'Developed the Chrome extension using React.js, Webpack, Babel, and Tailwind CSS, focusing on performance and user experience.',
+            'Utilized regular expressions to efficiently identify and extract time patterns in the DOM.',
+        ],
+        imageSrc: '/TZ.png',
+        imageAlt: 'timezone converter',
     },
     {
         title: 'Flashcard – application for learning vocabulary with external API',

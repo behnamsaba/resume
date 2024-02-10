@@ -1,4 +1,3 @@
-// Component for individual project card
 import { AiOutlineGithub } from 'react-icons/ai';
 import { CgMediaLive } from 'react-icons/cg';
 
@@ -28,18 +27,21 @@ const ProjectCard = ({
                     {desc}
                 </p>
             ))}
-            <div className='flex items-center space-x-2 px-2 py-2'>
-                <AiOutlineGithub
-                    size={25}
-                    className='text-black-500'
-                />
-                <a
-                    href={githubLink}
-                    target='_blank'
-                    className='text-blue-500 no-underline hover:text-blue-700' rel="noreferrer">
-                    {serverGithubLink ? 'Client-side GitHub' : 'GitHub'}
-                </a>
-            </div>
+            {githubLink && (
+                <div className='flex items-center space-x-2 px-2 py-2'>
+                    <AiOutlineGithub
+                        size={25}
+                        className='text-black-500'
+                    />
+                    <a
+                        href={githubLink}
+                        target='_blank'
+                        className='text-blue-500 no-underline hover:text-blue-700'
+                        rel='noreferrer'>
+                        {serverGithubLink ? 'Client-side GitHub' : 'GitHub'}
+                    </a>
+                </div>
+            )}
             {serverGithubLink && (
                 <div className='flex items-center space-x-2 px-2 py-2'>
                     <AiOutlineGithub
@@ -49,23 +51,27 @@ const ProjectCard = ({
                     <a
                         href={serverGithubLink}
                         target='_blank'
-                        className='text-blue-500 no-underline hover:text-blue-700' rel="noreferrer">
+                        className='text-blue-500 no-underline hover:text-blue-700'
+                        rel='noreferrer'>
                         Server-side GitHub
                     </a>
                 </div>
             )}
-            <div className='flex items-center space-x-2 px-2 py-2'>
-                <CgMediaLive
-                    size={25}
-                    className='text-red-500'
-                />
-                <a
-                    href={liveLink}
-                    target='_blank'
-                    className='text-blue-500 no-underline hover:text-blue-700' rel="noreferrer">
-                    Live Version
-                </a>
-            </div>
+            {liveLink && (
+                <div className='flex items-center space-x-2 px-2 py-2'>
+                    <CgMediaLive
+                        size={25}
+                        className='text-red-500'
+                    />
+                    <a
+                        href={liveLink}
+                        target='_blank'
+                        className='text-blue-500 no-underline hover:text-blue-700'
+                        rel='noreferrer'>
+                        Live Version
+                    </a>
+                </div>
+            )}
         </div>
     </div>
 );

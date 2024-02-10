@@ -16,7 +16,7 @@ const contactInfo = [
         icon: FaFilePdf,
         size: 25,
         text: 'Get My Resume in PDF',
-        link: 'https://drive.google.com/file/d/12_hDSUh3-39OTcVfYxzd-3x4EaSWVJOP/view?usp=sharing',
+        link: 'https://www.dropbox.com/scl/fi/kgoh2z7wc5vrz5v72chue/Behnam_Saba.pdf?rlkey=9eex637a0v8clvyiwxzqvfuu1&dl=0',
         iconColor: 'text-red-500',
     },
     {

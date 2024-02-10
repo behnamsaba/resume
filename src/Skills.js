@@ -28,7 +28,7 @@ const skillsData = [
     },
     {
         category: 'Database Knowledge',
-        skills: ['SQL', 'PostgreSQL', 'SQLAlchemy', 'Schema Design', 'MongoDb'],
+        skills: ['SQL', 'PostgreSQL', 'SQLAlchemy', 'Schema Design', 'MongoDb', 'T-SQL', 'Microsoft SQL Server'],
         gridTemplate: 'grid-rows-2 grid-flow-col',
     },
     {
@@ -40,6 +40,7 @@ const skillsData = [
         category: 'Additional Technologies',
         skills: [
             'Docker',
+            'CI/CD',
             'LangChain',
             'OpenAI API',
             'GitHub/Git',
