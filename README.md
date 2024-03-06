@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Behnam Saba – Full Stack Software Engineer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Location:** Los Angeles, CA  
+**Phone:** (949) 993-6727  
+**Email:** [behnams71@gmail.com](mailto:behnams71@gmail.com)  
+**LinkedIn:** [linkedin.com/in/behnam-saba-979915134](https://linkedin.com/in/behnam-saba-979915134)  
+**Website:** [behnamsaba.onrender.com](https://behnam-saba.onrender.com/)  
+**GitHub:** [github.com/behnamsaba](https://github.com/behnamsaba)  
+**Status:** US Permanent Resident  
 
-## Available Scripts
+## SUMMARY
 
-In the project directory, you can run:
+Full-Stack Developer, well-versed in both front-end and back-end technologies, with proficiency in Python and JavaScript, along with libraries and frameworks such as React, Redux, Flask, and Next.js. Committed to staying up to date with the latest technology trends and passionate about building projects, creating rich user experiences, Cloud Services, and AI. Driven by impactful missions and keen to join and contribute to a dynamic, forward-thinking team.
 
-### `npm start`
+## SKILLS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Programming Languages:** JavaScript, TypeScript, Python.
+- **Front-end Development:** React.js, Redux, Next.js, jQuery, HTML, CSS, Tailwind CSS.
+- **Back-end Development:** Flask, Express.js, Node.js, Authentication, Authorization, JWT, OAuth.
+- **Database & ORM:** SQL, PostgreSQL, MongoDB, Microsoft SQL Server, T-SQL, schema design, SQLAlchemy.
+- **Testing & Version Control:** Unit Testing, Integration testing, Jest, Git, GitHub.
+- **Cloud & DevOps:** Microsoft Azure Cloud Services, CI/CD, Docker, Linux Bash.
+- **Architectural Patterns & Design Principles:** Serverless, Microservices, Event-Driven Architecture (EDA), Single Page Application (SPA), RESTful API, Model View Controller (MVC), Responsive Design, Scalable Architectures.
+- **Additional Technologies:** No-code platforms, SDLC, algorithms, OpenAI API, LangChain, Microsoft Office.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## PROFESSIONAL EXPERIENCE
 
-### `npm test`
+### Full Stack Developer – Galliot – San Francisco, CA (January 2023 – Present)
+- Participated in all stages of the SDLC, from requirement analysis and application design to coding and testing.
+- Developed responsive user interfaces and Chrome extensions using React.
+- Developed backend systems with REST architecture using Node.js, Flask, and Azure functions.
+- Implemented cloud solutions to enhance scalability, reliability, and cost efficiency.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project Management Associate, Market Research Analyst – KCE (October 2018 – February 2021)
+- Completed the Sangan Iron Ore project through effective communication.
+- Led a team of six analysts in an agile environment producing monthly and quarterly reports on commodities outlook.
 
-### `npm run build`
+### Sales Associate – Rexroth Ag (May 2017 – September 2018)
+- Generated accurate pricing proposals by analyzing customer requirements.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## PROJECTS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### E-Commerce website
+- Utilized TypeScript, React, Redux Toolkit, Tailwind CSS, Azure Functions.
+- Hosting on Azure Web Apps, Azure SQL Database for transactions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Time zone converter – Chrome Extension
+- Chrome extension that detects times and converts them to your preferred time zone(s).
 
-### `npm run eject`
+### One movie – movie/TV show streaming web application
+- Integrated with TMDB API, utilizing React.js, Next.js, Redux Toolkit.
+- [GitHub](https://github.com/behnamsaba/one_movies)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Jobly – Indeed style clone web application
+- Built using React, Express, PostgreSQL, with full user signup and login process.
+- [GitHub](https://github.com/behnamsaba/jobly-frontend)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## EDUCATION AND CERTIFICATIONS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Microsoft Azure** - Azure Developer Associate AZ-204, Azure Fundamentals AZ-900 – Microsoft
+- **Full-Stack Software Engineering Program** – Springboard (September 2022 – August 2023)
+- **Bachelor of Science** – Industrial Engineering, Azad University (October 2011– February 2016)
+- **Certificate:** JAVA, Python, ICDL (Microsoft Office) – MFT

@@ -74,7 +74,7 @@ const skillsData = [
     },
     {
         category: 'Additional/Other Skills',
-        skills: ['Software Developmnt Life Cycle', 'Algorithms', 'OpenAI API', 'LangChain', 'Microsoft Office'],
+        skills: ['No-code platforms', 'Algorithms', 'OpenAI API', 'LangChain', 'Microsoft Office','Software Developmnt Life Cycle'],
         gridTemplate: 'grid-rows-2 grid-flow-col',
     },
     {
