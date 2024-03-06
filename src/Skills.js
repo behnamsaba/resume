@@ -23,49 +23,59 @@ const skillsData = [
     },
     {
         category: 'Back-end Development',
-        skills: ['Flask', 'Express.js', 'Node.js', 'Redis'],
+        skills: ['Flask', 'Express.js', 'Node.js', 'Authentication/Authorization (JWT, OAuth)'],
         gridTemplate: 'grid-rows-2 grid-flow-col',
     },
     {
-        category: 'Database Knowledge',
-        skills: ['SQL', 'PostgreSQL', 'SQLAlchemy', 'Schema Design', 'MongoDb', 'T-SQL', 'Microsoft SQL Server'],
+        category: 'Database & ORM',
+        skills: ['SQL', 'PostgreSQL', 'SQLAlchemy', 'Schema Design', 'MongoDb', 'T-SQL', 'Microsoft SQL Server', 'Redis'],
+        gridTemplate: 'grid-rows-3 grid-flow-col',
+    },
+    {
+        category: 'Testing & Version Control',
+        skills: ['Unit Testing', 'Integration Testing', 'Jest', 'Jasmine', 'Git', 'GitHub'],
         gridTemplate: 'grid-rows-2 grid-flow-col',
     },
     {
-        category: 'Testing',
-        skills: ['Unit Testing', 'Integration Testing', 'Jest', 'Jasmine'],
-        gridTemplate: 'grid-rows-2 grid-flow-col',
-    },
-    {
-        category: 'Additional Technologies',
+        category: 'Cloud & DevOps',
         skills: [
-            'Docker',
-            'CI/CD',
-            'LangChain',
-            'OpenAI API',
-            'GitHub/Git',
-            'Linux',
-            'Microsoft365',
-            'Algorithms',
-            'REST APIs',
-            'Software Development Life Cycle',
-            'Distributed Architecture',
-            'Model-View-Controller (MVC)',
-            'Event-Driven Architecture',
-        ],
-        gridTemplate: 'grid-rows-6 grid-flow-col',
-    },
-    {
-        category: 'Cloud Skills',
-        skills: [
-            'Serverless Computing',
             'Azure Functions',
             'Azure App Service',
+            'Azure Cosmos DB',
             'Azure Storage',
-            'Cosmos DB',
-            'Virtual Machines',
+            'CI/CD',
+            'Linux Bash',
+            'Docker'
+        ],
+        gridTemplate: 'grid-rows-2 grid-flow-col',
+    },
+    {
+        category: 'Architectural Patterns & Design Principles',
+        skills: [
+            'Serverless Architecture',
+            'Microservices, Architecture',
+            'Event-Driven Architecture (EDA)',
+            'Single Page Application (SPA)',
+            'RESTful API Design',
+            'Model View Controller (MVC)',
+            'Responsive Design',
+            'Rcalable Architectures'
         ],
         gridTemplate: 'grid-rows-4 grid-flow-col',
+    },
+    {
+        category: 'Data Serialization Languages',
+        skills: [
+            'XML',
+            'JSON',
+            'YAML'
+        ],
+        gridTemplate: 'grid-rows-1 grid-flow-col',
+    },
+    {
+        category: 'Additional/Other Skills',
+        skills: ['Software Developmnt Life Cycle', 'Algorithms', 'OpenAI API', 'LangChain', 'Microsoft Office'],
+        gridTemplate: 'grid-rows-2 grid-flow-col',
     },
     {
         category: 'Soft Skills',

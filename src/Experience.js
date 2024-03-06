@@ -4,18 +4,17 @@ import ExperienceEntry from './ExperienceEntry';
 // Data structure for experience
 const experienceData = [
     {
-        role: 'Full Stack Developer – Galliot, San Francisco, CA',
+        role: 'Full Stack Developer – Galliot',
         period: 'January 2023 - Present',
         responsibilities: [
             'Participated in all stages of Software Development Life Cycle (SDLC), from requirement analysis and application design to coding and testing, and collaborated with product managers, designers, and software engineers to ensure efficient development and delivery of software solutions.',
-            'Developed backend with Node, Flask, and Next.js, utilized PostgreSQL and MongoDB, created RESTful APIs, and integrated third-party APIs for front-end enhancement.',
-            'Developed responsive and user-friendly interfaces using React ensuring optimal user experience.',
-            'Developed backend with Node, Flask, and Next.js, utilized PostgreSQL and MongoDB, created RESTful APIs, and integrated third-party APIs for front-end enhancement.',
-            'Developed and updated Chrome extension Manifest V3 with React and Webpack.',
+            'Developed responsive user interfaces and Chrome extensions using React, with a focus on reusable JavaScript and TypeScript components',
+            'Developed backend systems with REST architecture using Node.js, Flask, and Azure functions, managed PostgreSQL and MongoDB databases, and integrated third-party APIs for front-end enhancement',
+            'Implemented cloud solutions to enhance scalability, reliability, and cost efficiency.'
         ],
     },
     {
-        role: 'Project Management Associate, Market Research Analyst',
+        role: 'Project Management Associate, Market Research Analyst - KCE',
         period: 'October 2018 - February 2021',
         responsibilities: [
             'Efficiently completed the Sangan Iron Ore project through effective communication and by coordinating with multiple contractors to track documents, requisitions, and meetings.',
@@ -24,14 +23,14 @@ const experienceData = [
     },
     {
         role: 'Sales Associate – Rexroth Ag',
-        period: 'May 2018 - September 2018',
+        period: 'May 2017 - September 2018',
         responsibilities: [
             "Generated accurate pricing proposals by analyzing customer requirements and aligning them with vendors' pricelists.",
         ],
     },
     {
-        role: 'Intern Irantalent.com',
-        period: 'February 2018 - May 2018',
+        role: 'Intern - Irantalent.com',
+        period: 'February 2016 - May 2017',
         responsibilities: [
             'Collaborated with the sales team to identify potential client opportunities.',
         ],
