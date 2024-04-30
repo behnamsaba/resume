@@ -90,15 +90,19 @@ const General = () => {
                     Summary
                 </h2>
                 <p className='hover:bg-blue-100 rounded-lg py-2 px-2 text-justify'>
-                    4 years of engineering experience in cross-functional teams,
-                    including 1 year as a full-stack developer within a startup
-                    environment. Well-versed in both front-end and back-end
-                    technologies, including SQL, JavaScript, Python, and React.
-                    Committed to staying up to date with the latest technology
-                    trends and passionate about building projects, creating rich
-                    user experiences, Cloud Services, and AI. Driven by
-                    impactful missions and keen to join and contribute to a
-                    dynamic, forward-thinking team.
+                    As a Full-Stack Developer, I am well-versed in both
+                    front-end and back-end technologies, with proficiency in
+                    Python and JavaScript, along with libraries and frameworks
+                    such as React, Redux, Flask, and Next.js. I am deeply
+                    committed to staying up-to-date with the latest technology
+                    trends and passionate about building projects that create
+                    rich user experiences, utilizing Cloud Services and AI. My
+                    experience in startup environments has sharpened my
+                    adaptability skills, enabling me to quickly master new
+                    technologies, handle multiple roles, and deliver projects on
+                    time. Motivated by missions that create significant impact,
+                    I am dedicated to continuous learning and perseverance. I am
+                    eager to contribute to a dynamic, forward-thinking team.
                 </p>
             </div>
         </div>
