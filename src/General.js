@@ -16,14 +16,14 @@ const contactInfo = [
         icon: FaFilePdf,
         size: 25,
         text: 'Get My Resume in PDF',
-        link: 'https://www.dropbox.com/scl/fi/dpb8k3ho00lpgpktcbh8e/BehnamSaba_resume.pdf?rlkey=tb32ge4cruo6lazwaibgpz2t8&dl=0',
+        link: 'https://www.dropbox.com/scl/fi/wq7h20pln4kgq00rspuoq/Behnam_Saba_latest.pdf?rlkey=l637bak25cogc5e109bxki90z&st=obx8kyqp&dl=0',
         iconColor: 'text-red-500',
     },
     {
         icon: MdOutlineMailOutline,
         size: 25,
         text: 'Behnams71@gmail.com',
-        link: ' ',
+        link: 'maileto:behnams71@gmail.com',
         iconColor: 'text-green-600',
     },
     {

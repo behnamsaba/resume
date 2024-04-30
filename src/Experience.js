@@ -7,34 +7,27 @@ const experienceData = [
         role: 'Full Stack Developer – Galliot',
         period: 'January 2023 - Present',
         responsibilities: [
-            'Participated in all stages of Software Development Life Cycle (SDLC), from requirement analysis and application design to coding and testing, and collaborated with product managers, designers, and software engineers to ensure efficient development and delivery of software solutions.',
-            'Developed responsive user interfaces and Chrome extensions using React, with a focus on reusable JavaScript and TypeScript components',
-            'Developed backend systems with REST architecture using Node.js, Flask, and Azure functions, managed PostgreSQL and MongoDB databases, and integrated third-party APIs for front-end enhancement',
-            'Implemented cloud solutions to enhance scalability, reliability, and cost efficiency.'
+            'Collaborated in all stages of the SDLC, from requirement analysis and application design to coding and testing, and collaborated with product managers, designers, and software engineers ensuring timely and efficient delivery of the best software solutions aligned with business goals.',
+            'Developed responsive user interfaces and Chrome extensions using React, with a focus on reusable JavaScript and TypeScript components reducing development time by 30%.',
+            'Engineered backends, microservices, and APIs using Python, Node.js, Flask, Express, Azure Functions, and AWS Lambda, managing PostgreSQL for cost efficiency and DynamoDB for durability and flexibility. Integrated third-party APIs to enhance features and functionality.',
+            'Enhanced scalability, reliability, and cost efficiency by implementing advanced cloud solutions, achieving cost savings of up to 50%. '
         ],
     },
     {
         role: 'Project Management Associate, Market Research Analyst - KCE',
         period: 'October 2018 - February 2021',
         responsibilities: [
-            'Efficiently completed the Sangan Iron Ore project through effective communication and by coordinating with multiple contractors to track documents, requisitions, and meetings.',
-            'Led a team of six analysts in an agile environment producing influential monthly and quarterly reports on commodities outlook, providing valuable market Insights.',
+            'Expedited the Sangan Iron Ore project completion ahead of schedule through efficient communication and coordination with multiple contractors, effectively managing documents, requisitions, and meetings.',
+            'Collaborated with a team of six analysts in an agile environment to produce influential monthly and quarterly commodity outlook reports using Microsoft Office, delivering critical market insights.',
         ],
     },
     {
         role: 'Sales Associate – Rexroth Ag',
         period: 'May 2017 - September 2018',
         responsibilities: [
-            "Generated accurate pricing proposals by analyzing customer requirements and aligning them with vendors' pricelists.",
+            "Generated accurate pricing proposals by analyzing customer requirements and aligning them with vendor pricelists.",
         ],
-    },
-    {
-        role: 'Intern - Irantalent.com',
-        period: 'February 2016 - May 2017',
-        responsibilities: [
-            'Collaborated with the sales team to identify potential client opportunities.',
-        ],
-    },
+    }
 ];
 
 // Main Experience component

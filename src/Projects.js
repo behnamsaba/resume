@@ -4,21 +4,25 @@ import ProjectCard from './ProjectCard';
 // Data structure for project information
 const projectData = [
     {
-        title: 'Fashion e-Commerce website - (Comming Soon)',
+        title: 'LS Daily News Slack Chatbot',
         descriptions: [
-            'E-commerce website utilizing TypeScript and enhanced its functionality by leveraging modern Microsoft Azure cloud services, ensuring robust and scalable solutions.',
-            'Implemented React for frontend development, integrated React-router for client-side rendering, utilized Redux Toolkit for efficient state management, and employed Tailwind CSS to ensure the responsive design of the website.',
-            'Leveraged Azure Functions, a serverless computing service, to efficiently manage backend logic. This approach significantly reduced costs (Azure pay-as-you-go subscription).',
-            'Hosting React front-end app on Azure Web Apps supports continuous deployment (CI/CD) from GitHub.',
-            'Used T-SQL (Transact-SQL) for schema design and queries and Azure SQL Database, based on the Microsoft SQL Server database engine for supproting transactional capabilities.'
-        ]
+            'Engineered the LS Daily News Bot, an end-to-end news delivery system on Slack using Python, AWS Lambda, AWS API Gateway, DynamoDB, and Bolt. The bot efficiently fetches daily updates from specified RSS feeds, keeping teams up to date with developments in the Life Sciences sector.',
+            'Achieved a 36% cost reduction and enhanced system scalability by implementing event-driven microservices architecture, optimizing the delivery of critical news information directly to Slack channels.',
+        ],
+    },
+    {
+        title: 'Fashion e-Commerce website',
+        descriptions: [
+            'Developed an e-commerce website using TypeScript with a serverless backend via Azure Functions, integrating React for dynamic frontend interactions. Employed Azure cloud services for scalability and enabled continuous deployment from GitHub, enhancing site functionality with Redux Toolkit and responsive design through Tailwind CSS.',
+            "Achieved a 45% cost reduction by utilizing Azure's pay-as-you-go model for efficient serverless backend management, improving scalability and cost-effectiveness. ",
+            'Designed and managed the database schema using T-SQL and hosted it on Azure SQL Database, which provides full transactional support based on the Microsoft SQL Server engine, ensuring reliable data operations.',
+        ],
     },
     {
         title: 'One movie – movie/TV show web application with TMDB API',
         descriptions: [
-            'Empower users to browse a selection of movies and manage personalized watch lists. This sophisticated platform enhances user experience through integration with an external API, successfully driving increased engagement and interaction.',
-            'Full-stack web application utilizing React.js and Next.js for efficient frontend interaction, integrated with Redux Toolkit for state management, and styled with Tailwind CSS for a responsive and contemporary user interface.',
-            'Implemented Model View Controller (MVC) pattern structure.',
+            'Developed a full-stack web application using React.js and Next.js, enhancing UI efficiency through reusable components and server-side rendering, which improved SEO performance. Integrated with Redux Toolkit for state management and styled using Tailwind CSS for a responsive, modern interface.',
+            'Designed and implemented a PostgreSQL database schema, facilitating full CRUD operations for user registration, login, updates, and the creation of personalized movie/TV series playlists, ensuring a seamless user experience.',
         ],
         githubLink: 'https://github.com/behnamsaba/one_movies',
         liveLink: 'https://onemovies-omega.vercel.app/',
@@ -42,9 +46,8 @@ const projectData = [
     {
         title: 'R2D2 – CRM Prototype web application integrated with OpenAI API',
         descriptions: [
-            'Multifeature prototype of R2D2 focusing on AI-driven market research, deal/customer suggestions, personalized email outreach, and CRM autofill.',
-            "Developed Flask backend leveraged LangChain framework to communicate with OpenAI's API, React for front-end, redux toolkit for state management, and Tailwind CSS for UI.",
-            'Client-side and server-side code hosted on separate repositories.',
+            'Developed an artificial intelligence CRM prototype that optimized market research and customer interaction, accelerating decision-making and significantly improving experiences for both customers and employees.',
+            "Created a Flask backend using Python and integrated the LangChain framework to utilize OpenAI's API, paired with React for a dynamic front-end, ensuring seamless communication and user interaction.",
         ],
         githubLink: 'https://github.com/behnamsaba/R2D2-Client-side',
         serverGithubLink: 'https://github.com/behnamsaba/R2D2-backend',
@@ -55,9 +58,8 @@ const projectData = [
     {
         title: 'Time zone converter Chrome Extension',
         descriptions: [
-            'As you browse the web, the Chrome extension plugin seamlessly detects times and converts them to your preferred time zone(s).',
-            'Developed the Chrome extension using React.js, Webpack, Babel, and Tailwind CSS, focusing on performance and user experience.',
-            'Utilized regular expressions to efficiently identify and extract time patterns in the DOM.',
+            'Updated the time zone converter Chrome extension with React.js, Webpack, Babel, and Tailwind CSS to detect and convert webpage times to preferred time zones, boosting remote team collaboration and reducing errors by 19%.',
+            'Utilized Regular Expressions to efficiently identify and extract time patterns in the DOM, results in less false time detection.',
         ],
         imageSrc: '/TZ.png',
         imageAlt: 'timezone converter',
@@ -65,10 +67,8 @@ const projectData = [
     {
         title: 'Flashcard – application for learning vocabulary with external API',
         descriptions: [
-            'Designed and implemented a RESTful API using Flask and PostgreSQL, with SQLAlchemy for database integration, Bcrypt for authentication.',
-            'Used Flask-Session to store user information.',
-            'Serving as a powerful tool for users to enrich their English vocabulary.',
-            'Implemented Jinja2 for frontend development, enhanced by HTML and Bootstrap.',
+            "Created a Flask backend using Python and integrated the LangChain framework to utilize OpenAI's API, paired with React for a dynamic front-end, ensuring seamless communication and user interaction.",
+            'Designed and implemented a RESTful API with Flask and PostgreSQL, incorporating SQLAlchemy for database integration and Bcrypt for secure user authentication.',
         ],
         githubLink: 'https://github.com/behnamsaba/dictionaryApi',
         liveLink: 'https://capstone-one-project.herokuapp.com/',

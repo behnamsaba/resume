@@ -43,6 +43,9 @@ const skillsData = [
             'Azure App Service',
             'Azure Cosmos DB',
             'Azure Storage',
+            'AWS Lambda',
+            'AWS DynamoDB',
+            'AWS API gateway',
             'CI/CD',
             'Linux Bash',
             'Docker'
