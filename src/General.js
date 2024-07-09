@@ -16,7 +16,7 @@ const contactInfo = [
         icon: FaFilePdf,
         size: 25,
         text: 'Get My Resume in PDF',
-        link: 'https://www.dropbox.com/scl/fi/wq7h20pln4kgq00rspuoq/Behnam_Saba_latest.pdf?rlkey=l637bak25cogc5e109bxki90z&st=obx8kyqp&dl=0',
+        link: 'https://www.dropbox.com/scl/fi/bpnbw7q9xdf7zrjwprq26/Behnam_Saba_resume.pdf?rlkey=frei5qowdph5xbs89pg25jgtw&st=t6naoqu1&dl=0',
         iconColor: 'text-red-500',
     },
     {
@@ -29,7 +29,7 @@ const contactInfo = [
     {
         icon: AiFillLinkedin,
         size: 25,
-        text: 'Linkedin',
+        text: 'LinkedIn',
         link: 'https://www.linkedin.com/in/behnam-saba-979915134',
         iconColor: 'text-blue-500',
     },

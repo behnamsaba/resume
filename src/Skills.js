@@ -11,6 +11,7 @@ const skillsData = [
         category: 'Front-end Development',
         skills: [
             'React.js',
+            'React Native',
             'Next.js',
             'Redux Toolkit',
             'jQuery',
@@ -18,6 +19,7 @@ const skillsData = [
             'CSS',
             'Tailwind CSS',
             'Bootstrap',
+            'Shopify'
         ],
         gridTemplate: 'grid-rows-4 grid-flow-col',
     },

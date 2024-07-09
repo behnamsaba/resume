@@ -3,6 +3,16 @@ import React from 'react';
 // Data structure for education and certifications
 const educationData = [
     {
+        title: 'Meta React Native Specialization',
+        institution: 'Meta',
+        date: 'July 2024',
+    },
+    {
+        title: 'Shopify Training',
+        institution: 'LinkedIn',
+        date: 'June 2024',
+    },
+    {
         title: 'Microsoft Azure - Developer Associate AZ-204 Certificate',
         institution: 'Microsoft',
         date: 'December 2023',
