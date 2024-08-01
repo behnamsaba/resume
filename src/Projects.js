@@ -71,7 +71,6 @@ const projectData = [
             'Designed and implemented a RESTful API with Flask and PostgreSQL, incorporating SQLAlchemy for database integration and Bcrypt for secure user authentication.',
         ],
         githubLink: 'https://github.com/behnamsaba/dictionaryApi',
-        liveLink: 'https://capstone-one-project.herokuapp.com/',
         imageSrc: '/vocab.png',
         imageAlt: 'vocab',
     },
