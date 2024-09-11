@@ -11,7 +11,7 @@ const projectData = [
         ],
     },
     {
-        title: 'Fashion e-Commerce website',
+        title: 'Fashion e-Commerce website - (Under development)',
         descriptions: [
             'Developed an e-commerce website using TypeScript with a serverless backend via Azure Functions, integrating React for dynamic frontend interactions. Employed Azure cloud services for scalability and enabled continuous deployment from GitHub, enhancing site functionality with Redux Toolkit and responsive design through Tailwind CSS.',
             "Achieved a 45% cost reduction by utilizing Azure's pay-as-you-go model for efficient serverless backend management, improving scalability and cost-effectiveness. ",
@@ -36,9 +36,9 @@ const projectData = [
             'Integrated HubSpot chat to engage website visitors and enhance support, reducing resolution time for customer queries by up to 50%. This change increased engagement by 20% and improved customer support by reducing the need for emails by 50%',
             'Implemented Google Analytics to track visitor behavior, identify the most visited pages, and determine where visitors spend the most time. This led to a 10% increase in organic traffic and higher engagement rates.'
         ],
-        liveLink: 'https://galliot.us/'
+        liveLink: 'https://galliot.us/',
         imageSrc: '/galliot.png',
-        imageAlt: 'galliot'
+        imageAlt: 'galliot',
     },
     {
         title: 'Jobly – Indeed style clone web application',
