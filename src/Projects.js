@@ -30,6 +30,17 @@ const projectData = [
         imageAlt: 'one movie',
     },
     {
+        title: 'Galliot - Company Website',
+        descriptions: [
+            'Developed the main website for Galliot startup using React, integrating WordPress plugins for enhanced UI, AOS for animations, and lazysizes for image optimization. This approach reduced bandwidth consumption by approximately 35% and improved load times by 15%.',
+            'Integrated HubSpot chat to engage website visitors and enhance support, reducing resolution time for customer queries by up to 50%. This change increased engagement by 20% and improved customer support by reducing the need for emails by 50%',
+            'Implemented Google Analytics to track visitor behavior, identify the most visited pages, and determine where visitors spend the most time. This led to a 10% increase in organic traffic and higher engagement rates.'
+        ],
+        liveLink: 'https://galliot.us/'
+        imageSrc: '/galliot.png',
+        imageAlt: 'galliot'
+    },
+    {
         title: 'Jobly – Indeed style clone web application',
         descriptions: [
             'Full stack app built using React, Express, and PostgreSQL with database querying capabilities.',
