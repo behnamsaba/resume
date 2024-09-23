@@ -14,18 +14,20 @@ const experienceData = [
         ],
     },
     {
-        role: 'Project Management Associate, Market Research Analyst - KCE',
-        period: 'October 2018 - February 2021',
+        role: 'Front-end Developer',
+        period: 'October 2020 - January 2023',
         responsibilities: [
-            'Expedited the Sangan Iron Ore project completion ahead of schedule through efficient communication and coordination with multiple contractors, effectively managing documents, requisitions, and meetings.',
-            'Collaborated with a team of six analysts in an agile environment to produce influential monthly and quarterly commodity outlook reports using Microsoft Office, delivering critical market insights.',
+            'Developed responsive user interfaces using HTML5, CSS3, JavaScript, React, and Tailwind CSS, resulting in a 30% increase in traffic and 4,000+ monthly page views.',
+            'Collaborated with UX designers to transform Figma designs into functional code, boosting user engagement by 25% and streamlining the development process.',
+            'Boosted website performance by 15% through strategic front-end development, implementing code minification and troubleshooting using browser developer tools.'
         ],
     },
     {
-        role: 'Sales Associate – Rexroth Ag',
+        role: 'Project Management Associate, Market Research Analyst - KCE',
         period: 'May 2017 - September 2018',
         responsibilities: [
-            "Generated accurate pricing proposals by analyzing customer requirements and aligning them with vendor pricelists.",
+            'Expedited the Sangan Iron Ore project completion ahead of schedule through efficient communication and coordination with multiple contractors, effectively managing documents, requisitions, and meetings.',
+            'Collaborated with a team of six analysts in an agile environment to produce influential monthly and quarterly commodity outlook reports using Microsoft Office, delivering critical market insights.',
         ],
     }
 ];

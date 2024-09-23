@@ -52,7 +52,7 @@ const skillsData = [
             'Linux Bash',
             'Docker'
         ],
-        gridTemplate: 'grid-rows-2 grid-flow-col',
+        gridTemplate: 'grid-rows-4 grid-flow-col',
     },
     {
         category: 'Architectural Patterns & Design Principles',
