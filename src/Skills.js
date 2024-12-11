@@ -14,12 +14,13 @@ const skillsData = [
             'React Native',
             'Next.js',
             'Redux Toolkit',
+            'Zustand',
             'jQuery',
             'HTML',
             'CSS',
             'Tailwind CSS',
             'Bootstrap',
-            'Shopify'
+            'Material UI',
         ],
         gridTemplate: 'grid-rows-4 grid-flow-col',
     },
@@ -30,7 +31,7 @@ const skillsData = [
     },
     {
         category: 'Database & ORM',
-        skills: ['SQL', 'PostgreSQL', 'SQLAlchemy', 'Schema Design', 'MongoDb', 'T-SQL', 'Microsoft SQL Server', 'Redis'],
+        skills: ['SQL', 'PostgreSQL', 'SQLAlchemy', 'Schema Design', 'MongoDb'],
         gridTemplate: 'grid-rows-3 grid-flow-col',
     },
     {
@@ -79,7 +80,7 @@ const skillsData = [
     },
     {
         category: 'Additional/Other Skills',
-        skills: ['No-code platforms', 'Algorithms', 'OpenAI API', 'LangChain', 'Microsoft Office','Software Developmnt Life Cycle'],
+        skills: ['JIRA', 'LangChain', 'Microsoft Office','Software Developmnt Life Cycle'],
         gridTemplate: 'grid-rows-2 grid-flow-col',
     },
     {

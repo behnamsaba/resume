@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 // Data structure for project information
 const projectData = [
     {
+        title: 'Tapistro App',
+        descriptions: [
+            'Enhanced the Tapistro app, an AI tool for GTM teams, using React, React-Flow, and Material UI, resulting in a 25% improvement in user engagement and operational efficiency.',
+            'Implemented Google OAuth integration, enhancing user authentication across multiple platforms and improving sign-in efficiency by 30%',
+        ]
+    },
+    {
         title: 'LS Daily News Slack Chatbot',
         descriptions: [
             'Engineered the LS Daily News Bot, an end-to-end news delivery system on Slack using Python, AWS Lambda, AWS API Gateway, DynamoDB, and Bolt. The bot efficiently fetches daily updates from specified RSS feeds, keeping teams up to date with developments in the Life Sciences sector.',

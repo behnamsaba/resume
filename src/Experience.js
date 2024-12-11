@@ -4,8 +4,16 @@ import ExperienceEntry from './ExperienceEntry';
 // Data structure for experience
 const experienceData = [
     {
+        role: 'Software Engineer (Front-end focus)',
+        period: 'November 2024 - February 2025',
+        responsibilities: [
+            'Collaborated in an Agile environment using Jira and GitHub for daily stand-ups and sprint activities, resulting in streamlined development and a 23% improvement in issue resolution rates.',
+            'Enhanced the Tapistro app, an AI tool for GTM teams, using React, React-Flow, and Material UI, resulting in a 25% improvement in user engagement and operational efficiency',
+        ],
+    },
+    {
         role: 'Full Stack Developer – Galliot',
-        period: 'January 2023 - Present',
+        period: 'January 2023 - November 2024',
         responsibilities: [
             'Collaborated in all stages of the SDLC, from requirement analysis and application design to coding and testing, and collaborated with product managers, designers, and software engineers ensuring timely and efficient delivery of the best software solutions aligned with business goals.',
             'Developed responsive user interfaces and Chrome extensions using React, with a focus on reusable JavaScript and TypeScript components reducing development time by 30%.',
