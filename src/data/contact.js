@@ -36,7 +36,7 @@ const contactInfo = [
     icon: AiOutlineGithub,
     size: 25,
     text: 'GitHub',
-    link: 'https://github.com/behnamsaba',
+    link: 'https://github.com/ben-saba',
     iconColor: 'text-black',
   },
 ];
