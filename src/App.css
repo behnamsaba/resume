@@ -1,7 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-    @apply h-24 bg-gradient-to-r from-green-100 to-blue-500;
-    
-  }
+
+/* Global layout and typography */
+/* Animated, theme-aware background */
+body {
+  @apply min-h-screen text-slate-800 dark:text-slate-100 antialiased;
+  background: linear-gradient(135deg, #eef2ff, #e0f2fe, #f5d0fe);
+  background-size: 400% 400%;
+  animation: gradientShift 18s ease infinite;
+}
+
+.dark body {
+  background: linear-gradient(135deg, #0f172a, #1e293b, #312e81);
+  background-size: 400% 400%;
+  animation: gradientShift 18s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Smooth link styles */
+a {
+  @apply text-blue-600 underline underline-offset-2 hover:text-blue-700 transition-colors;
+}
+
+.dark a {
+  @apply text-blue-400 hover:text-blue-300;
+}
+
+/* Section heading consistency */
+.section-title {
+  @apply text-center text-2xl font-bold tracking-tight text-slate-800 dark:text-slate-100 mb-4;
+}
+
+/* Card wrapper for sections */
+.section-card {
+  @apply bg-white dark:bg-slate-900 rounded-xl shadow-sm ring-1 ring-slate-200 dark:ring-slate-700 overflow-hidden;
+}
+
+/* Container spacing */
+.page-container {
+  @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Accessible skip link */
+.skip-link {
+  @apply sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-white focus:text-slate-900 focus:px-4 focus:py-2 focus:rounded-md focus:shadow focus:ring-2 focus:ring-blue-600;
+}
+
+/* Strong, consistent focus-visible rings */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  /* Tailwind utility application */
+  @apply ring-2 ring-blue-600 ring-offset-2 ring-offset-white rounded;
+}
