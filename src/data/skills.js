@@ -2,85 +2,55 @@
 const skillsData = [
   {
     category: 'Programming Languages',
-    skills: ['JavaScript', 'TypeScript', 'Python', 'Java (Basic)'],
-    gridTemplate: 'grid-rows-2 grid-flow-col',
+    skills: ['JavaScript ES6', 'TypeScript', 'Python'],
+    gridTemplate: 'grid-rows-1 grid-flow-col',
   },
   {
-    category: 'Front-end Development',
+    category: 'Front-End Development',
     skills: [
       'React.js',
       'React Native',
       'Next.js',
-      'Redux Toolkit',
-      'Zustand',
-      'jQuery',
-      'HTML',
-      'CSS',
+      'HTML5',
       'Tailwind CSS',
-      'Bootstrap',
       'Material UI',
     ],
-    gridTemplate: 'grid-rows-4 grid-flow-col',
-  },
-  {
-    category: 'Back-end Development',
-    skills: ['Flask', 'Express.js', 'Node.js', 'Authentication/Authorization (JWT, OAuth)'],
-    gridTemplate: 'grid-rows-2 grid-flow-col',
-  },
-  {
-    category: 'Database & ORM',
-    skills: ['SQL', 'PostgreSQL', 'SQLAlchemy', 'Schema Design'],
     gridTemplate: 'grid-rows-3 grid-flow-col',
   },
   {
+    category: 'Back-End Development',
+    skills: ['Node.js', 'Express.js', 'Flask', 'JWT', 'OAuth'],
+    gridTemplate: 'grid-rows-2 grid-flow-col',
+  },
+  {
+    category: 'Databases',
+    skills: ['PostgreSQL', 'Schema Design'],
+    gridTemplate: 'grid-rows-1 grid-flow-col',
+  },
+  {
     category: 'Testing & Version Control',
-    skills: ['Unit Testing', 'Integration Testing', 'Jest', 'Jasmine', 'Git', 'GitHub'],
+    skills: ['Git', 'GitHub', 'Unit Testing', 'Integration Testing', 'Vitest', 'Playwright'],
     gridTemplate: 'grid-rows-2 grid-flow-col',
   },
   {
     category: 'Cloud & DevOps',
     skills: [
-      'Azure Functions',
-      'Azure App Service',
-      'Azure Cosmos DB',
-      'Azure Storage',
-      'AWS Lambda',
-      'AWS DynamoDB',
-      'AWS API gateway',
-      'CI/CD',
-      'Linux Bash',
-      'Docker'
+      'AWS',
+      'GCP',
+      'Docker',
+      'Linux/Bash'
     ],
-    gridTemplate: 'grid-rows-4 grid-flow-col',
-  },
-  {
-    category: 'Architectural Patterns & Design Principles',
-    skills: [
-      'Serverless Architecture',
-      'Microservices, Architecture',
-      'Event-Driven Architecture (EDA)',
-      'Single Page Application (SPA)',
-      'RESTful API Design',
-      'Model View Controller (MVC)',
-      'Responsive Design',
-      'Rcalable Architectures'
-    ],
-    gridTemplate: 'grid-rows-4 grid-flow-col',
-  },
-  {
-    category: 'Data Serialization Languages',
-    skills: ['XML', 'JSON', 'YAML'],
-    gridTemplate: 'grid-rows-1 grid-flow-col',
-  },
-  {
-    category: 'Additional/Other Skills',
-    skills: ['JIRA', 'LangChain', 'Microsoft Office','Software Developmnt Life Cycle'],
     gridTemplate: 'grid-rows-2 grid-flow-col',
   },
   {
-    category: 'Soft Skills',
-    skills: ['Collaboration', 'Problem-Solving', 'Teamwork'],
-    gridTemplate: 'grid-rows-1 grid-flow-col',
+    category: 'Architecture & Design',
+    skills: [
+      'Serverless',
+      'Microservices',
+      'RESTful APIs',
+      'Single Page Applications (SPA)'
+    ],
+    gridTemplate: 'grid-rows-2 grid-flow-col',
   },
 ];
 

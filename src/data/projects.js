@@ -1,7 +1,7 @@
 // Centralized project data
 const projectData = [
     {
-        title: 'Tapistro App',
+        title: 'Tapistro Platform',
         descriptions: [
             'Enhanced the front-end of the Tapistro app—an AI tool for GTM teams—by implementing a Figma-based design using React, React-Flow, and Material UI, resulting in a 25% increase in user engagement and operational efficiency.',
             'Conducted regular code reviews, achieving a 20% reduction in critical vulnerabilities and enhancing overall code quality across the project.',
@@ -9,6 +9,14 @@ const projectData = [
         ],
         imageSrc: '/tapistro.png',
         imageAlt: 'Tapistro app',
+    },
+    {
+        title: 'Benflow-AI Powered Visual Workflow Architect',
+        descriptions: [
+            'Built an AI-powered workflow generator using React, TypeScript, React Flow, and Vercel serverless, transforming natural-language goals into structured graph workflows.',
+            'Integrated OpenAI with schema validation and fallback logic for reliable generation and export (Markdown/JSON).'
+        ],
+        liveLink: 'https://benflow-ai.vercel.app',
     },
     {
         title: 'LS Daily News Slack Chatbot',
@@ -80,7 +88,6 @@ const projectData = [
         ],
         githubLink: 'https://github.com/behnamsaba/R2D2-Client-side',
         serverGithubLink: 'https://github.com/behnamsaba/R2D2-backend',
-        liveLink: 'https://r2d2-prototype.onrender.com/',
         imageSrc: '/r2d2.png',
         imageAlt: 'r2d2 prototype',
     },

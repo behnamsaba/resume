@@ -1,12 +1,13 @@
 // Centralized experience data
 const experienceData = [
   {
-    role: 'Software Engineer (Front-end focus)',
+    role: 'Software Engineer (Frontend Focus) – Tapistro – San Francisco, CA',
     period: 'November 2024 - Present',
     responsibilities: [
-      'Collaborated in an Agile environment using Jira and GitHub for daily stand-ups and sprint activities, resulting in streamlined development and a 23% improvement in issue resolution rates.',
-      'Developed solutions to address complex challenges by leveraging React, React-Flow, and Material UI, and integrating scalable cloud services on GCP to boost overall application performance and reliability.',
-      'Mentored and guided software engineering interns during onboarding and project integration, providing technical support, code reviews, and best practices to accelerate their productivity and ensure high-quality contributions'
+      'Collaborated in an Agile environment using Jira and GitHub for daily stand-ups, sprint planning, and execution, improving issue resolution by 23%.',
+      'Built and enhanced complex UI workflows using React, React Flow, and Material UI; debugged production customer issues using GCP logging/monitoring and PostgreSQL analysis, contributing to a 14% increase in ticket closure rate.',
+      'Added and maintained end-to-end test coverage with Playwright in CI to catch regressions before release and reduce customer-facing breakages.',
+      'Used AI coding assistants (Claude, Codex, Cursor) to speed up implementation, test development, refactoring, and documentation, validating changes through reviews and automated tests.'
     ],
   },
   {
