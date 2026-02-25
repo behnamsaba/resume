@@ -11,6 +11,18 @@ const projectData = [
         imageAlt: 'Tapistro app',
     },
     {
+        title: 'R2D2 – CRM Prototype web application integrated with OpenAI API',
+        descriptions: [
+            'Developed an artificial intelligence CRM prototype that optimized market research and customer interaction, accelerating decision-making and significantly improving experiences for both customers and employees.',
+            "Created a Flask backend using Python and integrated the LangChain framework to utilize OpenAI's API, paired with React for a dynamic front-end, ensuring seamless communication and user interaction.",
+        ],
+        liveLink: 'https://ben-copilot.vercel.app/',
+        githubLink: 'https://github.com/behnamsaba/R2D2-Client-side',
+        serverGithubLink: 'https://github.com/behnamsaba/R2D2-backend',
+        imageSrc: '/r2d2.png',
+        imageAlt: 'r2d2 prototype',
+    },
+    {
         title: 'Benflow-AI Powered Visual Workflow Architect',
         descriptions: [
             'Built an AI-powered workflow generator using React, TypeScript, React Flow, and Vercel serverless, transforming natural-language goals into structured graph workflows.',
@@ -79,17 +91,6 @@ const projectData = [
         liveLink: 'https://jobly-frontend-ag2j.onrender.com/',
         imageSrc: '/job.png',
         imageAlt: 'job',
-    },
-    {
-        title: 'R2D2 – CRM Prototype web application integrated with OpenAI API',
-        descriptions: [
-            'Developed an artificial intelligence CRM prototype that optimized market research and customer interaction, accelerating decision-making and significantly improving experiences for both customers and employees.',
-            "Created a Flask backend using Python and integrated the LangChain framework to utilize OpenAI's API, paired with React for a dynamic front-end, ensuring seamless communication and user interaction.",
-        ],
-        githubLink: 'https://github.com/behnamsaba/R2D2-Client-side',
-        serverGithubLink: 'https://github.com/behnamsaba/R2D2-backend',
-        imageSrc: '/r2d2.png',
-        imageAlt: 'r2d2 prototype',
     },
     {
         title: 'Time zone converter Chrome Extension',

@@ -45,7 +45,9 @@ const NavBar = () => {
     <nav className='fixed top-0 inset-x-0 z-50 bg-white/80 dark:bg-slate-900/70 backdrop-blur border-b border-slate-200 dark:border-slate-700'>
       <div className='page-container h-16 flex items-center justify-between'>
         <div className='flex items-center gap-3'>
-          <img src='/logo.png' alt='Logo' className='w-12 h-12 rounded' />
+          <div className='w-10 h-10 rounded-lg bg-white dark:bg-slate-100 shadow-sm ring-1 ring-slate-200 dark:ring-slate-600 overflow-hidden flex-shrink-0'>
+            <img src='/logo.png' alt='Logo' style={{ width: '176px', height: '96px', maxWidth: 'none', marginTop: '-28px', marginLeft: '-8px' }} />
+          </div>
           <div className='leading-tight'>
             <div className='text-slate-900 dark:text-slate-100 font-semibold'>Behnam Saba</div>
             <div className='text-slate-600 dark:text-slate-300 text-xs'>Software Engineer</div>
