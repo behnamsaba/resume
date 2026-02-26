@@ -52,7 +52,6 @@ const projectData = [
             'Designed and implemented a PostgreSQL database schema, facilitating full CRUD operations for user registration, login, updates, and the creation of personalized movie/TV series playlists, ensuring a seamless user experience.',
         ],
         githubLink: 'https://github.com/behnamsaba/one_movies',
-        liveLink: 'https://onemovies-omega.vercel.app/',
         imageSrc: '/onemovie.png',
         imageAlt: 'one movie',
     },
