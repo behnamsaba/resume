@@ -29,6 +29,7 @@ const projectData = [
             'Integrated OpenAI with schema validation and fallback logic for reliable generation and export (Markdown/JSON).'
         ],
         liveLink: 'https://benflow-ai.vercel.app',
+        githubLink: 'https://github.com/behnamsaba/benflow-ai',
     },
     {
         title: 'LS Daily News Slack Chatbot',

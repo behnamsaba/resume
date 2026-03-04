@@ -15,7 +15,7 @@ const contactInfo = [
     icon: FaFilePdf,
     size: 25,
     text: 'Get My Resume in PDF',
-    link: 'https://www.dropbox.com/scl/fi/j505cuz7fdym1wovonjh7/Ben_saba.pdf?rlkey=jwdgeulqa0jl2jic3k983l6dj&st=mnlxg57z&dl=0',
+    link: 'https://www.dropbox.com/scl/fi/azf7eyvxo1e32ini6sdpq/Behnam_Saba_resume.pdf?rlkey=llpy7g82yyf510j32x1ib45yd&st=1wh8zbp2&dl=0',
     iconColor: 'text-red-500',
   },
   {
