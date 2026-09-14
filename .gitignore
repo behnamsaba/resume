@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# local resume copies (the site links to Dropbox)
+src/*.pdf

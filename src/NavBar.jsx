@@ -46,7 +46,7 @@ const NavBar = () => {
       <div className='page-container h-16 flex items-center justify-between'>
         <div className='flex items-center gap-3'>
           <div className='w-10 h-10 rounded-lg bg-white dark:bg-slate-100 shadow-sm ring-1 ring-slate-200 dark:ring-slate-600 overflow-hidden flex-shrink-0'>
-            <img src='/logo.png' alt='Logo' style={{ width: '176px', height: '96px', maxWidth: 'none', marginTop: '-28px', marginLeft: '-8px' }} />
+            <img src='/logo-mark.png' alt='Ben Saba logo' className='w-full h-full object-contain' />
           </div>
           <div className='leading-tight'>
             <div className='text-slate-900 dark:text-slate-100 font-semibold'>Behnam Saba</div>

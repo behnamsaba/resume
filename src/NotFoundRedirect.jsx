@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 
 const NotFoundRedirect = () => {
   const navigate = useNavigate();
@@ -24,7 +24,7 @@ const NotFoundRedirect = () => {
         </p>
         <div className='mx-auto mt-4 h-5 w-5 animate-spin rounded-full border-2 border-slate-300 border-t-transparent dark:border-slate-600' aria-hidden='true' />
         <p className='mt-3'>
-          <a href='/' className='underline'>Go Home now</a>
+          <Link to='/' replace className='underline'>Go Home now</Link>
         </p>
       </div>
     </section>

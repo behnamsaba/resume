@@ -27,7 +27,7 @@ const ProjectCard = ({
             {descriptions.map((desc, index) => (
                 <p
                     key={index}
-                    className='mt-2 text-sm text-slate-700 dark:text-slate-300 rounded-md px-2 py-2 hover:bg-slate-50 dark:hover:bg-slate-800 text-justify'>
+                    className='mt-2 text-sm text-slate-700 dark:text-slate-300 rounded-md px-2 py-2 hover:bg-slate-50 dark:hover:bg-slate-800 text-left'>
                     {desc}
                 </p>
             ))}

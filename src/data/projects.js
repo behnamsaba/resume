@@ -16,7 +16,6 @@ const projectData = [
             'Developed an artificial intelligence CRM prototype that optimized market research and customer interaction, accelerating decision-making and significantly improving experiences for both customers and employees.',
             "Created a Flask backend using Python and integrated the LangChain framework to utilize OpenAI's API, paired with React for a dynamic front-end, ensuring seamless communication and user interaction.",
         ],
-        liveLink: 'https://ben-copilot.vercel.app/',
         githubLink: 'https://github.com/behnamsaba/R2D2-Client-side',
         serverGithubLink: 'https://github.com/behnamsaba/R2D2-backend',
         imageSrc: '/r2d2.png',

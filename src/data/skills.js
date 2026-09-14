@@ -35,8 +35,8 @@ const skillsData = [
   {
     category: 'Cloud & DevOps',
     skills: [
-      'AWS',
       'GCP',
+      'Pulumi',
       'Docker',
       'Linux/Bash'
     ],

@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   darkMode: 'class',
-  content: ["./src/**/*.{html,js}"],
+  content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
       backgroundImage: {
@@ -10,14 +10,14 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       screens: {
-        'xs': '480px',  // extra small screens
-        'sm': '640px',  // small screens
-        'md': '768px',  // medium screens
-        'lg': '1024px', // large screens
-        'xl': '1280px', // extra large screens
-        '2xl': '1536px' // 2x extra large screens
+        xs: '480px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px',
       },
     },
   },
   plugins: [],
-}
+};

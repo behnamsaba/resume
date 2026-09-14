@@ -8,7 +8,7 @@ const ExperienceEntry = ({ role, period, responsibilities }) => {
           <span className='text-sm text-slate-600 dark:text-slate-300'>({period})</span>
         </div>
       </li>
-      <ul className='text-slate-700 dark:text-slate-300 font-normal text-sm list-none text-justify'>
+      <ul className='text-slate-700 dark:text-slate-300 font-normal text-sm list-none text-left'>
         {responsibilities.map((responsibility, index) => (
           <li
             key={index}

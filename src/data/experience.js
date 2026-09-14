@@ -1,13 +1,15 @@
 // Centralized experience data
 const experienceData = [
   {
-    role: 'Software Engineer (Frontend Focus) – Tapistro – San Francisco, CA',
+    role: 'Software Engineer – Tapistro – San Francisco, CA',
     period: 'November 2024 - Present',
     responsibilities: [
-      'Collaborated in an Agile environment using Jira and GitHub for daily stand-ups, sprint planning, and execution, improving issue resolution by 23%.',
-      'Built and enhanced complex UI workflows using React, React Flow, and Material UI; debugged production customer issues using GCP logging/monitoring and PostgreSQL analysis, contributing to a 14% increase in ticket closure rate.',
-      'Added and maintained end-to-end test coverage with Playwright in CI to catch regressions before release and reduce customer-facing breakages.',
-      'Used AI coding assistants (Claude, Codex, Cursor) to speed up implementation, test development, refactoring, and documentation, validating changes through reviews and automated tests.'
+      'Own and deliver production features end-to-end for an AI-powered SaaS platform using React, TypeScript, React Flow, Material UI, REST APIs, and PostgreSQL, collaborating with product, design, and engineering from scoping and implementation through testing and release, contributing to a 23% improvement in issue resolution.',
+      'Diagnose complex production issues across application workflows, REST APIs, GCP logging and observability tooling, PostgreSQL data, and customer data pipelines, accelerating root-cause analysis and contributing to a 14% increase in ticket closure rate.',
+      'Use agentic development tools including Claude Code, OpenAI Codex, and Cursor, supported by project-level agent instructions such as CLAUDE.md, to evaluate architecture tradeoffs, plan implementations, refactor shared components, generate tests, and document technical decisions, helping reduce development time by 30%.',
+      'Develop and maintain Playwright end-to-end testing and CI automation, using GitHub Actions for PR checks and automated validation and GCP Cloud Scheduler and Cloud Run for scheduled E2E workflows, catching regressions earlier and improving release reliability.',
+      'Manage GCP resources through Pulumi-based Infrastructure as Code (IaC), supporting reproducible cloud configuration, deployment workflows, and environment reliability while reducing manual infrastructure changes and configuration drift.',
+      'Integrate third-party SaaS platforms and APIs across GTM, data enrichment, and AI services, including OpenAI, implementing data mapping, validation, error handling, and production workflow integrations to expand platform capabilities and improve reliability.',
     ],
   },
   {

@@ -48,14 +48,14 @@ const General = () => {
           are conveniently listed below. Looking forward to connecting
           with you!
         </p>
-        <ul className='text-slate-700 dark:text-slate-300 list-none text-justify'>
+        <ul className='text-slate-700 dark:text-slate-300 list-none text-left'>
           {contactInfo.map((item, index) => (
             <ContactItem key={index} {...item} />
           ))}
         </ul>
         <h2 className='section-title'>Summary</h2>
-        <p className='rounded-lg py-2 px-2 text-justify'>
-          I'm a software engineer who loves coding — it’s more than a job, it’s my hobby. I’m comfortable working across both frontend and backend, using technologies like React, Redux, Next.js, Flask, and more. I enjoy learning and experimenting with new tools, and I love building products that make an impact. To me, writing code feels like playing with Lego — taking pieces and turning them into something amazing. I’m excited to bring that passion and adaptability to a dynamic, forward-thinking team
+        <p className='rounded-lg py-2 px-2 text-left'>
+          I'm a software engineer who loves coding — it’s more than a job, it’s my hobby. I’m comfortable working across both frontend and backend, using technologies like React, TypeScript, Next.js, Node.js, Flask, and more. I enjoy learning and experimenting with new tools, and I love building products that make an impact. To me, writing code feels like playing with Lego — taking pieces and turning them into something amazing. I’m excited to bring that passion and adaptability to a dynamic, forward-thinking team.
         </p>
       </div>
     </section>
