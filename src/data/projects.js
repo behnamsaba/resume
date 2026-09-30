@@ -9,6 +9,7 @@ const projectData = [
         ],
         imageSrc: '/tapistro.png',
         imageAlt: 'Tapistro app',
+        stack: ['React', 'TypeScript', 'React Flow', 'Material UI', 'PostgreSQL'],
     },
     {
         title: 'R2D2 – CRM Prototype web application integrated with OpenAI API',
@@ -20,6 +21,7 @@ const projectData = [
         serverGithubLink: 'https://github.com/behnamsaba/R2D2-backend',
         imageSrc: '/r2d2.png',
         imageAlt: 'r2d2 prototype',
+        stack: ['Python', 'Flask', 'LangChain', 'OpenAI API', 'React'],
     },
     {
         title: 'Benflow-AI Powered Visual Workflow Architect',
@@ -29,6 +31,7 @@ const projectData = [
         ],
         liveLink: 'https://benflow-ai.vercel.app',
         githubLink: 'https://github.com/behnamsaba/benflow-ai',
+        stack: ['React', 'TypeScript', 'React Flow', 'Vercel Serverless', 'OpenAI API'],
     },
     {
         title: 'LS Daily News Slack Chatbot',
@@ -36,6 +39,7 @@ const projectData = [
             'Engineered the LS Daily News Bot, an end-to-end news delivery system on Slack using Python, AWS Lambda, AWS API Gateway, DynamoDB, and Bolt. The bot efficiently fetches daily updates from specified RSS feeds, keeping teams up to date with developments in the Life Sciences sector.',
             'Achieved a 36% cost reduction and enhanced system scalability by implementing event-driven microservices architecture, optimizing the delivery of critical news information directly to Slack channels.',
         ],
+        stack: ['Python', 'AWS Lambda', 'AWS API Gateway', 'DynamoDB', 'Slack Bolt'],
     },
     {
         title: 'Fashion e-Commerce website - (Under development)',
@@ -44,6 +48,7 @@ const projectData = [
             "Achieved a 45% cost reduction by utilizing Azure's pay-as-you-go model for efficient serverless backend management, improving scalability and cost-effectiveness. ",
             'Designed and managed the database schema using T-SQL and hosted it on Azure SQL Database, which provides full transactional support based on the Microsoft SQL Server engine, ensuring reliable data operations.',
         ],
+        stack: ['TypeScript', 'React', 'Redux Toolkit', 'Tailwind CSS', 'Azure Functions', 'Azure SQL Database'],
     },
     {
         title: 'One movie – movie/TV show web application with TMDB API',
@@ -54,6 +59,7 @@ const projectData = [
         githubLink: 'https://github.com/behnamsaba/one_movies',
         imageSrc: '/onemovie.png',
         imageAlt: 'one movie',
+        stack: ['React', 'Next.js', 'Redux Toolkit', 'Tailwind CSS', 'PostgreSQL', 'TMDB API'],
     },
     {
         title: 'Hypertire.com',
@@ -65,6 +71,7 @@ const projectData = [
         liveLink: 'https://hypertire.com/',
         imageSrc: '/hypertire.png',
         imageAlt: 'hypertire',
+        stack: ['HTML5', 'CSS3', 'JavaScript', 'Google Analytics'],
     },
     {
         title: 'Galliot - Company Website',
@@ -76,6 +83,7 @@ const projectData = [
         liveLink: 'https://galliot.us/',
         imageSrc: '/galliot.png',
         imageAlt: 'galliot',
+        stack: ['WordPress', 'AOS', 'lazysizes', 'HubSpot', 'Google Analytics'],
     },
     {
         title: 'Jobly – Indeed style clone web application',
@@ -90,6 +98,7 @@ const projectData = [
         liveLink: 'https://jobly-frontend-ag2j.onrender.com/',
         imageSrc: '/job.png',
         imageAlt: 'job',
+        stack: ['React', 'Express', 'PostgreSQL', 'JWT', 'Jest', 'Supertest'],
     },
     {
         title: 'Time zone converter Chrome Extension',
@@ -99,16 +108,18 @@ const projectData = [
         ],
         imageSrc: '/TZ.png',
         imageAlt: 'timezone converter',
+        stack: ['React', 'Webpack', 'Babel', 'Tailwind CSS'],
     },
     {
         title: 'Flashcard – application for learning vocabulary with external API',
         descriptions: [
-            "Created a Flask backend using Python and integrated the LangChain framework to utilize OpenAI's API, paired with React for a dynamic front-end, ensuring seamless communication and user interaction.",
+            'Built a vocabulary flashcard application backed by an external dictionary API, with a React front end for studying and reviewing words.',
             'Designed and implemented a RESTful API with Flask and PostgreSQL, incorporating SQLAlchemy for database integration and Bcrypt for secure user authentication.',
         ],
         githubLink: 'https://github.com/behnamsaba/dictionaryApi',
         imageSrc: '/vocab.png',
         imageAlt: 'vocab',
+        stack: ['Python', 'Flask', 'SQLAlchemy', 'PostgreSQL', 'React'],
     },
 ];
 

@@ -1,9 +1,12 @@
 import { AiOutlineGithub } from 'react-icons/ai';
 import { CgMediaLive } from 'react-icons/cg';
+import TechBadge from './TechBadge';
+import { EVENTS, trackEvent } from './analytics';
 
 const ProjectCard = ({
     title,
     descriptions,
+    stack,
     githubLink,
     serverGithubLink,
     liveLink,
@@ -24,6 +27,13 @@ const ProjectCard = ({
             <h3 className='text-lg font-semibold text-slate-900 dark:text-slate-100 text-center border-b border-slate-200 dark:border-slate-700 pb-2'>
                 {title}
             </h3>
+            {stack && (
+                <ul className='flex flex-wrap justify-center gap-1.5 mt-3' aria-label='Tech stack'>
+                    {stack.map((tech) => (
+                        <TechBadge key={tech} name={tech} />
+                    ))}
+                </ul>
+            )}
             {descriptions.map((desc, index) => (
                 <p
                     key={index}
@@ -34,7 +44,7 @@ const ProjectCard = ({
             {githubLink && (
                 <div className='flex items-center gap-2 px-2 py-2'>
                     <AiOutlineGithub size={24} className='text-slate-800 dark:text-white dark:drop-shadow' />
-                    <a href={githubLink} target='_blank' rel='noreferrer'>
+                    <a href={githubLink} target='_blank' rel='noreferrer' {...trackEvent(EVENTS.projectLink, { project: title, link: 'github' })}>
                         {serverGithubLink ? 'Client-side GitHub' : 'GitHub'}
                     </a>
                 </div>
@@ -42,7 +52,7 @@ const ProjectCard = ({
             {serverGithubLink && (
                 <div className='flex items-center gap-2 px-2 py-2'>
                     <AiOutlineGithub size={24} className='text-slate-800 dark:text-white dark:drop-shadow' />
-                    <a href={serverGithubLink} target='_blank' rel='noreferrer'>
+                    <a href={serverGithubLink} target='_blank' rel='noreferrer' {...trackEvent(EVENTS.projectLink, { project: title, link: 'server-github' })}>
                         Server-side GitHub
                     </a>
                 </div>
@@ -50,7 +60,7 @@ const ProjectCard = ({
             {liveLink && (
                 <div className='flex items-center gap-2 px-2 py-2'>
                     <CgMediaLive size={22} className='text-red-500' />
-                    <a href={liveLink} target='_blank' rel='noreferrer'>
+                    <a href={liveLink} target='_blank' rel='noreferrer' {...trackEvent(EVENTS.projectLink, { project: title, link: 'live' })}>
                         Live Version
                     </a>
                 </div>

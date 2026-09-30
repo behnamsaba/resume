@@ -2,6 +2,7 @@ import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { RiContactsFill } from 'react-icons/ri';
 import { FaPhoneVolume, FaFilePdf } from 'react-icons/fa';
+import { EVENTS } from '../analytics';
 
 // Centralized contact info
 const contactInfo = [
@@ -10,20 +11,22 @@ const contactInfo = [
   { text: 'Full Stack Software Engineer' },
   { text: 'Los Angeles, CA' },
   { text: 'US Permanent Resident' },
-  { icon: FaPhoneVolume, size: 25, text: '949-993-6727', link: 'tel:+19499936727' },
+  { icon: FaPhoneVolume, size: 25, text: '949-993-6727', link: 'tel:+19499936727', event: EVENTS.phone },
   {
     icon: FaFilePdf,
     size: 25,
     text: 'Get My Resume in PDF',
-    link: 'https://www.dropbox.com/scl/fi/m35dh154hu83xpykyx2c9/Ben_Saba_R.pdf?rlkey=pgtsm8j99ky68ssdmslxpnvwy&st=86nkckqh&dl=0',
+    link: 'https://www.dropbox.com/scl/fi/l4x83dwjcmqutrvqljqhz/Ben_R.pdf?rlkey=c752l7nom41aaa4hcdyasaftt&st=z9szt9v3&dl=0',
     iconColor: 'text-red-500',
+    event: EVENTS.resumePdf,
   },
   {
     icon: MdOutlineMailOutline,
     size: 25,
-    text: 'Ben.saba.dev@gmail.com',
-    link: 'mailto:ben.saba.dev@gmail.com',
+    text: 'ben@bensaba.dev',
+    link: 'mailto:ben@bensaba.dev',
     iconColor: 'text-green-600',
+    event: EVENTS.email,
   },
   {
     icon: AiFillLinkedin,
@@ -31,6 +34,7 @@ const contactInfo = [
     text: 'LinkedIn',
     link: 'https://www.linkedin.com/in/ben-saba/',
     iconColor: 'text-blue-500',
+    event: EVENTS.linkedin,
   },
   {
     icon: AiOutlineGithub,
@@ -38,6 +42,7 @@ const contactInfo = [
     text: 'GitHub',
     link: 'https://github.com/ben-saba',
     iconColor: 'text-black',
+    event: EVENTS.github,
   },
 ];
 

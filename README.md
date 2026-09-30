@@ -4,7 +4,7 @@
 
 **Software Engineer** · Los Angeles, CA · US Permanent Resident
 
-[ben.saba.dev@gmail.com](mailto:ben.saba.dev@gmail.com) · (949) 993-6727 · [LinkedIn](https://www.linkedin.com/in/ben-saba/) · [GitHub](https://github.com/ben-saba) · [Portfolio](https://behnam-saba.onrender.com/) · [Resume (PDF)](https://www.dropbox.com/scl/fi/m35dh154hu83xpykyx2c9/Ben_Saba_R.pdf?rlkey=pgtsm8j99ky68ssdmslxpnvwy&st=86nkckqh&dl=0)
+[ben@bensaba.dev](mailto:ben@bensaba.dev) · (949) 993-6727 · [LinkedIn](https://www.linkedin.com/in/ben-saba/) · [GitHub](https://github.com/ben-saba) · [Portfolio](https://bensaba.dev/) · [Resume (PDF)](https://www.dropbox.com/scl/fi/l4x83dwjcmqutrvqljqhz/Ben_R.pdf?rlkey=c752l7nom41aaa4hcdyasaftt&st=z9szt9v3&dl=0)
 
 </div>
 
@@ -132,9 +132,9 @@ Serverless e-commerce site with continuous deployment from GitHub. Azure's pay-a
 
 ## About This Repository
 
-This repository powers my portfolio site at [behnam-saba.onrender.com](https://behnam-saba.onrender.com/). It is a single-page React application with client-side routing, a light and dark theme, and a responsive layout. All resume content is driven by the data files in `src/data/`, so updating a job, project, or skill is a one-file change.
+This repository powers my portfolio site at [bensaba.dev](https://bensaba.dev/). It is a single-page React application with client-side routing, a light and dark theme, and a responsive layout. All resume content is driven by the data files in `src/data/`, so updating a job, project, or skill is a one-file change.
 
-**Built with:** React 18, Vite, React Router 6, Tailwind CSS 3, react-icons · **Tested with:** Vitest, React Testing Library · **Hosted on:** Render
+**Built with:** React 18, Vite, React Router 6, Tailwind CSS 3, react-icons · **Tested with:** Vitest, React Testing Library · **Analytics:** Umami · **Hosted on:** Render
 
 ### Running Locally
 

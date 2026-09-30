@@ -27,7 +27,7 @@ const educationData = [
   },
   {
     title: 'Bachelor of Science – Industrial Engineering',
-    date: 'September 2011 - February 2016',
+    date: 'October 2011 - February 2016',
     institution: 'Azad University'
   },
   {

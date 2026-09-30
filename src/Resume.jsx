@@ -6,10 +6,12 @@ import Experience from './Experience';
 import Education from './Education';
 import Skills from './Skills';
 import NotFoundRedirect from './NotFoundRedirect';
+import PageMeta from './PageMeta';
 const Resume = () => {
     return (
         <div>
             <BrowserRouter>
+                <PageMeta />
                 <a href="#content" className='skip-link'>Skip to content</a>
                 <NavBar />
                 <main id='content' tabIndex='-1' className='pt-20 page-container'>

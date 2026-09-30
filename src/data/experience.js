@@ -1,7 +1,10 @@
 // Centralized experience data
 const experienceData = [
   {
-    role: 'Software Engineer – Tapistro – San Francisco, CA',
+    role: 'Software Engineer',
+    company: 'Tapistro',
+    location: 'San Francisco, CA',
+    logo: '/logos/tapistro.png',
     period: 'November 2024 - Present',
     responsibilities: [
       'Own and deliver production features end-to-end for an AI-powered SaaS platform using React, TypeScript, React Flow, Material UI, REST APIs, and PostgreSQL, collaborating with product, design, and engineering from scoping and implementation through testing and release, contributing to a 23% improvement in issue resolution.',
@@ -13,7 +16,10 @@ const experienceData = [
     ],
   },
   {
-    role: 'Full Stack Developer – Galliot',
+    role: 'Software Engineer',
+    company: 'Galliot',
+    location: 'San Francisco, CA',
+    logo: '/logos/galliot.png',
     period: 'January 2023 - November 2024',
     responsibilities: [
       'Collaborated in all stages of the SDLC, from requirement analysis and application design to coding and testing, and collaborated with product managers, designers, and software engineers ensuring timely and efficient delivery of the best software solutions aligned with business goals.',
@@ -23,7 +29,9 @@ const experienceData = [
     ],
   },
   {
-    role: 'Front-end Developer',
+    role: 'Frontend Developer',
+    company: 'Neotis Studio',
+    location: 'International',
     period: 'October 2020 - January 2023',
     responsibilities: [
       'Developed responsive user interfaces using HTML5, CSS3, JavaScript, React, and Tailwind CSS, resulting in a 30% increase in traffic and 4,000+ monthly page views.',
@@ -32,7 +40,8 @@ const experienceData = [
     ],
   },
   {
-    role: 'Project Management Associate, Market Research Analyst - KCE',
+    role: 'Project Management Associate, Market Research Analyst',
+    company: 'KCE',
     period: 'May 2017 - September 2018',
     responsibilities: [
       'Expedited the Sangan Iron Ore project completion ahead of schedule through efficient communication and coordination with multiple contractors, effectively managing documents, requisitions, and meetings.',

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { contactInfo } from './data/contact';
+import { trackEvent } from './analytics';
 
-const ContactItem = ({ icon: Icon, size, text, link, iconColor, isHeader }) => {
+const ContactItem = ({ icon: Icon, size, text, link, iconColor, isHeader, event }) => {
   const className = isHeader ? 'text-2xl font-bold mb-1' : 'font-semibold';
   const isExternal = link && /^(https?:|mailto:|tel:)/.test(link);
   return (
@@ -20,6 +21,7 @@ const ContactItem = ({ icon: Icon, size, text, link, iconColor, isHeader }) => {
             target={link.startsWith('http') ? '_blank' : undefined}
             rel={link.startsWith('http') ? 'noopener noreferrer' : undefined}
             className='hover:text-blue-700'
+            {...(event && trackEvent(event))}
           >
             {text}
           </a>
@@ -39,14 +41,11 @@ const General = () => {
   return (
     <section className='my-6'>
       <div className='section-card p-6 sm:p-8'>
-        <h1 className='text-slate-900 dark:text-slate-100 text-4xl md:text-5xl font-bold mb-4'>Welcome!</h1>
+        <h1 className='text-slate-900 dark:text-slate-100 text-4xl md:text-5xl font-bold mb-4'>Behnam Saba</h1>
         <p className='font-medium text-slate-700 dark:text-slate-300 border-b border-slate-200 dark:border-slate-700 px-2 py-2'>
-          Hello, my name is Behnam Saba, and I am a Software Engineer
-          based in Los Angeles, California. You are viewing the
-          deployed version of my resume. Feel free to browse around,
-          and if you'd like to get in touch, all my contact details
-          are conveniently listed below. Looking forward to connecting
-          with you!
+          Software Engineer in Los Angeles, CA, building AI-powered web
+          products with React, TypeScript, and PostgreSQL. Currently at
+          Tapistro.
         </p>
         <ul className='text-slate-700 dark:text-slate-300 list-none text-left'>
           {contactInfo.map((item, index) => (
@@ -55,7 +54,7 @@ const General = () => {
         </ul>
         <h2 className='section-title'>Summary</h2>
         <p className='rounded-lg py-2 px-2 text-left'>
-          I'm a software engineer who loves coding — it’s more than a job, it’s my hobby. I’m comfortable working across both frontend and backend, using technologies like React, TypeScript, Next.js, Node.js, Flask, and more. I enjoy learning and experimenting with new tools, and I love building products that make an impact. To me, writing code feels like playing with Lego — taking pieces and turning them into something amazing. I’m excited to bring that passion and adaptability to a dynamic, forward-thinking team.
+          Software engineer with over five years of experience building production web applications across the stack. I currently own and deliver end-to-end features for an AI-powered SaaS platform at Tapistro, working in React, TypeScript, React Flow, Material UI, REST APIs, and PostgreSQL on Google Cloud. I care about shipping reliably: I maintain Playwright end-to-end suites and CI automation, manage cloud infrastructure with Pulumi, and use agentic development tools such as Claude Code, OpenAI Codex, and Cursor to move faster without trading away quality.
         </p>
       </div>
     </section>
