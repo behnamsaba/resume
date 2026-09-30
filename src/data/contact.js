@@ -1,7 +1,7 @@
 import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { RiContactsFill } from 'react-icons/ri';
-import { FaPhoneVolume, FaFilePdf } from 'react-icons/fa';
+import { FaFilePdf } from 'react-icons/fa';
 import { EVENTS } from '../analytics';
 
 // Centralized contact info
@@ -11,7 +11,6 @@ const contactInfo = [
   { text: 'Full Stack Software Engineer' },
   { text: 'Los Angeles, CA' },
   { text: 'US Permanent Resident' },
-  { icon: FaPhoneVolume, size: 25, text: '949-993-6727', link: 'tel:+19499936727', event: EVENTS.phone },
   {
     icon: FaFilePdf,
     size: 25,

@@ -6,7 +6,6 @@
 export const EVENTS = {
   resumePdf: 'resume-pdf-click',
   email: 'email-click',
-  phone: 'phone-click',
   linkedin: 'linkedin-click',
   github: 'github-click',
   projectLink: 'project-link-click',
